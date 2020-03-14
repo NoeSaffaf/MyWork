@@ -1,0 +1,79 @@
+" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../../org/terrier/structures/indexing/singlepass/PostingInRun.html" title="class in org.terrier.structures.indexing.singlepass">org.terrier.structures.indexing.singlepass.PostingInRun</a></li>
+<li>
+<ul class="inheritance">
+<li>org.terrier.structures.indexing.singlepass.SimplePostingInRun</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>Direct Known Subclasses:</dt>
+<dd><a href="../../../../../org/terrier/structures/indexing/singlepass/BlockPostingInRun.html" title="class in org.terrier.structures.indexing.singlepass">BlockPostingInRun</a>, <a href="../../../../../org/terrier/structures/indexing/singlepass/FieldPostingInRun.html" title="class in org.terrier.structures.indexing.singlepass">FieldPostingInRun</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="typeNameLabel">SimplePostingInRun</span>
+extends <a href="../../../../../org/terrier/structures/indexing/singlepass/PostingInRun.html" title="class in org.terrier.structures.indexing.singlepass">PostingInRun</a></pre>
+<div class="block">Class holding the information for a posting list read
+ from a previously written run at disk. Used in the merging phase of the Single pass inversion method.
+ This class knows how to append itself to a <a href="../../../../../org/terrier/compression/bit/BitOut.html" title="interface in org.terrier.compression.bit"><code>BitOut</code></a> and it
+ represents the simpler class of posting <code>(TF, df, [docid, tf])</code></div>
+<dl>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>Roi Blanco</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== NESTED CLASS SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="nested.class.summary">
+<!--   -->
+</a>
+<h3>Nested Class Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Nested Class Summary table, listing nested classes, and an explanation">
+<caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Class and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/indexing/singlepass/SimplePostingInRun.PIRPostingIterator.html" title="class in org.terrier.structures.indexing.singlepass">SimplePostingInRun.PIRPostingIterator</a></span></code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<ul class="blockList">
+<li class="blockList"><a name="fields.inherited.from.class.org.terrier.structures.indexing.singlepass.PostingInRun">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/PostingInRun.html" title="class in org.terrier.structures.indexing.singlepass">PostingInRun</a></h3>
+<code><a href="../../../../../org/terrier/structures/indexing/singlepass/PostingInRun.html#postingSource">postingSource</a>, <a href="../../../../../org/terrier/structures/indexing/singlepass/PostingInRun.html#term">term</a>, <a href="../../../../../org/terrier/structures/indexing/singlepass/PostingInRun.html#termDf">termDf</a>, <a href="../../../../../org/terrier/structures/indexing/singlepass/PostingInRun.html#termTF">termTF</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Construc

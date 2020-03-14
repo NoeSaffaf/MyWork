@@ -1,0 +1,89 @@
+lus" title="Share on Google+" href="https://plusone.google.com/_/+1/confirm?hl=en&amp;url=http%3A%2F%2Fwww.flutetunes.com%2Ftunes.php%3Fid%3D1966"></a><a rel="external nofollow" class="addthis" title="Share..." href="https://expando.github.io/add/?u=http%3A%2F%2Fwww.flutetunes.com%2Ftunes.php%3Fid%3D1966&amp;t=Y+Deryn+Pur+%28Traditional+Welsh%29"></a></span></div>
+<a href="/categories.php?id=86">Celtic Music</a>, <a href="/categories.php?id=1">Traditional/Folk</a></td></tr>
+</table>
+</div>
+<div class="center" style="padding-top: 1em;"><div class="adpost"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:15px"
+     data-ad-client="ca-pub-0413812193020545"
+     data-ad-slot="5833210469"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div><div class="section">
+<h3>Performances</h3>
+<p>There are no recordings for this tune yet. <a href="/faq.php#performances">Submit yours</a>!</p></div>
+<div class="post">
+<div class="date">Tuesday 6 May 2014</div>
+<h3>Tune of the Day: Y Deryn Pur</h3>
+<div class="subtitle">Traditional Welsh slow air</div>
+<p>The title of this traditional Welsh tune is usually translated as “O Gentle Dove”, even if a more literal translation would probably be “The Pure Bird”.</p>
+<p class="stanza">
+O gentle dove with wings so blue<br />
+Fly quickly to my lady<br />
+And take to her a message true<br />
+While in her garden shady<br />
+Go to her and say I love her
+</p>
+<p>Thanks to Ronald for suggesting this tune!</p></div>
+<div class="adpost"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle adslot_re"
+     data-ad-client="ca-pub-0413812193020545"
+     data-ad-slot="2481315708"
+     data-ad-format="rectangle"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div class="section">
+<h3>Other Tunes in the same Categories</h3>
+<ul>
+<li>Celtic Music:<ul><li><a href="/tunes.php?id=1104">Flute Sheet Music: My Darling Asleep (Trad. Irish)</a></li><li><a href="/tunes.php?id=796">Flute Sheet Music: 79th's Farewell to Gibraltar (J. MacDonald)</a></li></ul></li>
+<li>Traditional/Folk:<ul><li><a href="/tunes.php?id=1684">Flute Sheet Music: For Ireland I Won’t Say Her Name (Trad. Irish)</a></li><li><a href="/tunes.php?id=321">Flute Sheet Music: Los peces en el río (Trad. Spanish)</a></li></ul></li>
+</ul>
+</div>
+</div>
+
+<!-- fr -->
+<div id="sm2-container"></div>
+</div>
+</div>
+
+<div id="footer">
+<p>Copyright &copy; 2009–2015.
+<a href="/terms.php">Terms of Use</a> |
+<a href="/privacy.php">Privacy</a> |
+<a href="/contact.php">Contact</a>
+<span class="optional"> |
+<a href="//validator.w3.org/check?uri=referer" title="This page validates as HTML5"><abbr title="HyperText Markup Language">HTML</abbr></a> |
+<a href="//jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a>
+</span>
+</p>
+</div>
+
+</div>
+<script type="text/javascript" src="https://www.flutetunes.com/script/soundmanager2-nodebug-jsmin.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+soundManager.setup({
+    debugMode: false,
+    //consoleOnly: false,
+    url: '/swf/',
+    preferFlash: true,
+    useFlashBlock: true,
+    useHighPerformance: true,
+    wmode: 'transparent',
+    onready: function() {
+        var as = document.getElementsByClassName('audioplay');
+        for (var i = 0; i < as.length; i++) {
+            as[i].onclick = (function(e, i) {
+                return function () {
+                    var s = soundManager.getSoundById('sound'+i);
+                    if (!s) {
+                        s = soundManager.createSound({
+                            id: 'sound'+i,
+                            url: e.href,
+                            onplay: function() {
+                                this.elt.className = this.elt.className + ' stop';
+                            },
+                            onstop: function() {
+        

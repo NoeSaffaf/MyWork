@@ -1,0 +1,81 @@
+!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>hasMetaItems</h4>
+<pre>public&nbsp;boolean&nbsp;hasMetaItems(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;name)</pre>
+<div class="block">Unsupported</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../org/terrier/matching/ResultSet.html#hasMetaItems-java.lang.String-">hasMetaItems</a></code>&nbsp;in interface&nbsp;<code><a href="../../../org/terrier/matching/ResultSet.html" title="interface in org.terrier.matching">ResultSet</a></code></dd>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>name</code> - of the desired metaitem set</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>true if the set exists.</dd>
+</dl>
+</li>
+</ul>
+<a name="getMetaKeys--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMetaKeys</h4>
+<pre>public&nbsp;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;getMetaKeys()</pre>
+<div class="block">Unsupported</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../org/terrier/matching/ResultSet.html#getMetaKeys--">getMetaKeys</a></code>&nbsp;in interface&nbsp;<code><a href="../../../org/terrier/matching/ResultSet.html" title="interface in org.terrier.matching">ResultSet</a></code></dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the list of key names</dd>
+</dl>
+</li>
+</ul>
+<a name="getResultSet-int-int-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getResultSet</h4>
+<pre>public&nbsp;<a href="../../../org/terrier/matching/ResultSet.html" title="interface in org.terrier.matching">ResultSet</a>&nbsp;getResultSet(int&nbsp;start,
+                              int&nbsp;length)</pre>
+<div class="block">Crops the existing result file and extracts a subset
+ from the given starting point, with the given length.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../org/terrier/matching/ResultSet.html#getResultSet-int-int-">getResultSet</a></code>&nbsp;in interface&nbsp;<code><a href="../../../org/terrier/matching/ResultSet.html" title="interface in org.terrier.matching">ResultSet</a></code></dd>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>start</code> - the beginning of the subset.</dd>
+<dd><code>length</code> - the length of the subset.</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>a subset of the current result set.</dd>
+</dl>
+</li>
+</ul>
+<a name="getResultSet-int:A-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getResultSet</h4>
+<pre>public&nbsp;<a href="../../../org/terrier/matching/ResultSet.html" title="interface in org.terrier.matching">ResultSet</a>&nbsp;getResultSet(int[]&nbsp;positions)</pre>
+<div class="block">Extracts a subset of the resultset given by the list parameter,
+ which contains a list of <b>positions</b> in the resultset that
+ should be saved.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../org/terrier/matching/ResultSet.html#getResultSet-int:A-">getResultSet</a></code>&nbsp;in interface&nbsp;<code><a href="../../../org/terrier/matching/ResultSet.html" title="interface in org.terrier.matching">ResultSet</a></code></dd>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>positions</code> - the list of elements in the current list that should be kept.</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>a subset of the current result set specified by the list.</dd>
+</dl>
+</li>
+</ul>
+<a name="getAccumulatorResultSet-int-int-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>getAccumulatorResultSet</h4>
+<pre>public&nbsp;<a href="../../../org/terrier/matching/AccumulatorResultSet.html" title="class in org.terrier.matching">AccumulatorResultSet</a>&nbsp;getAccumulatorR

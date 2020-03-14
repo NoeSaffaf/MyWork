@@ -1,0 +1,127 @@
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_PRINT_STATS_FILE_NOT_EXISTS">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_PRINT_DIRECT_FILE_NOT_EXISTS">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ERROR_PRINT_DIRECT_FILE_NOT_EXISTS</h4>
+<pre>protected static final&nbsp;int ERROR_PRINT_DIRECT_FILE_NOT_EXISTS</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_PRINT_DIRECT_FILE_NOT_EXISTS">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_UNKNOWN_OPTION">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ERROR_UNKNOWN_OPTION</h4>
+<pre>protected static final&nbsp;int ERROR_UNKNOWN_OPTION</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_UNKNOWN_OPTION">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_DIRECT_NOT_INDEXING">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ERROR_DIRECT_NOT_INDEXING</h4>
+<pre>protected static final&nbsp;int ERROR_DIRECT_NOT_INDEXING</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_DIRECT_NOT_INDEXING">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_INVERTED_NOT_INDEXING">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ERROR_INVERTED_NOT_INDEXING</h4>
+<pre>protected static final&nbsp;int ERROR_INVERTED_NOT_INDEXING</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_INVERTED_NOT_INDEXING">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_EXPAND_NOT_RETRIEVE">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ERROR_EXPAND_NOT_RETRIEVE</h4>
+<pre>protected static final&nbsp;int ERROR_EXPAND_NOT_RETRIEVE</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_EXPAND_NOT_RETRIEVE">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_GIVEN_C_NOT_RETRIEVING">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ERROR_GIVEN_C_NOT_RETRIEVING</h4>
+<pre>protected static final&nbsp;int ERROR_GIVEN_C_NOT_RETRIEVING</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_GIVEN_C_NOT_RETRIEVING">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_LANGUAGEMODEL_NOT_RETRIEVE">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ERROR_LANGUAGEMODEL_NOT_RETRIEVE</h4>
+<pre>protected static final&nbsp;int ERROR_LANGUAGEMODEL_NOT_RETRIEVE</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_LANGUAGEMODEL_NOT_RETRIEVE">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_HADOOP_NOT_RETRIEVAL">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ERROR_HADOOP_NOT_RETRIEVAL</h4>
+<pre>protected static final&nbsp;int ERROR_HADOOP_NOT_RETRIEVAL</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_HADOOP_NOT_RETRIEVAL">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+<a name="ERROR_HADOOP_ONLY_INDEX">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>ERROR_HADOOP_ONLY_INDEX</h4>
+<pre>protected static final&nbsp;int ERROR_HADOOP_ONLY_INDEX</pre>
+<dl>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="../../../constant-values.html#org.terrier.applications.TrecTerrier.ERROR_HADOOP_ONLY_INDEX">Constant Field Values</a></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList

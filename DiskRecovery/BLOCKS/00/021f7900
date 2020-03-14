@@ -1,0 +1,54 @@
+tion</a></pre>
+<dl>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="loadRunData--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>loadRunData</h4>
+<pre>protected&nbsp;<a href="http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html?is-external=true" title="class or interface in java.util">LinkedList</a>&lt;<a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/MapData.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">MapData</a>&gt;&nbsp;loadRunData()
+                                   throws <a href="http://docs.oracle.com/javase/7/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+<dl>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/7/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="startReduce-java.util.LinkedList-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>startReduce</h4>
+<pre>public&nbsp;void&nbsp;startReduce(<a href="http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html?is-external=true" title="class or interface in java.util">LinkedList</a>&lt;<a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/MapData.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">MapData</a>&gt;&nbsp;mapData)
+                 throws <a href="http://docs.oracle.com/javase/7/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+<div class="block">Merge the postings for the current term, converts the document ID's in the
+ postings to be relative to one another using the run number, number of documents
+ covered in each run, the flush number for that run and the number of documents
+ flushed.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>mapData</code> - - info about the runs(maps) and the flushes</dd>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/7/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="reduce-org.terrier.structures.indexing.singlepass.hadoop.SplitEmittedTerm-java.util.Iterator-org.apache.hadoop.mapred.OutputCollector-org.apache.hadoop.mapred.Reporter-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>reduce</h4>
+<pre>public&nbsp;void&nbsp;reduce(<a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/SplitEmittedTerm.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">SplitEmittedTerm</a>&nbsp;Term,
+                   <a href="http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html?is-external=true" title="class or interface in java.util">Iterator</a>&lt;<a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/MapEmittedPostingList.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">MapEmittedPostingList</a>&gt;&nbsp;postingIterator,
+                   org.apache.hadoop.mapred.OutputCollector&lt;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>,<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>&gt;&nbsp;output,
+                   org.apache.hadoop.mapred.Reporter&nbsp;reporter)
+            throws <a href="http://docs.oracle.com/javase/7/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+<div class="block">Main reduce algorithm step. Called for every term in the merged index, together with accessors
+ to 

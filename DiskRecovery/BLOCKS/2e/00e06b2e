@@ -1,0 +1,118 @@
+int i=0; i<field_list.size(); i++) 
+				if (!requirement_list_positive.contains(field_list.get(i)))
+					requirement_list_positive.add(field_list.get(i));
+
+			/*if (logger.isDebugEnabled())
+			{
+				for (int i=0; i<requirement_list.size(); i++) {
+					if(logger.isDebugEnabled()){
+					logger.debug("requirement: " + ((RequiredTermModifier)requirement_list.get(i)).getName());
+					}
+				}
+				for (int i=0; i<field_list.size(); i++) {
+					if(logger.isDebugEnabled()){
+					logger.debug("field: " + ((TermInFieldModifier)field_list.get(i)).getName()); 
+					}
+				}
+			}*/
+		
+			if (requirement_list_positive.size()>0) {
+				mqt.addDocumentScoreModifier(new BooleanScoreModifier(requirement_list_positive));
+			}
+
+			mqt.setQuery(q);
+			mqt.normaliseTermWeights();
+			try{
+				ResultSet outRs = matching.match(rq.getQueryID(), mqt);
+				
+				//check to see if we have any negative infinity scores that should be removed
+				int badDocuments = 0;
+				for (int i = 0; i < outRs.getResultSize(); i++) {
+					if (outRs.getScores()[i] == Double.NEGATIVE_INFINITY)
+						badDocuments++;
+				}
+				logger.debug("Found "+badDocuments+" documents with a score of negative infinity in the result set returned, they will be removed.");
+				
+				//now crop the collectionresultset down to a query result set.
+				rq.setResultSet(outRs.getResultSet(0, outRs.getResultSize()-badDocuments));
+			} catch (IOException ioe) {
+				logger.error("Problem running Matching, returning empty result set as query"+rq.getQueryID(), ioe);
+				rq.setResultSet(new QueryResultSet(0));
+			}
+		}
+		else
+		{
+			logger.warn("Returning empty result set as query "+rq.getQueryID()+" is empty");
+			rq.setResultSet(new QueryResultSet(0));
+		}
+	}
+	/** Runs the PostProcessing modules in order added. PostProcess modules
+	  * alter the resultset. Examples might be query expansions which completely replaces
+	  * the resultset.
+	  * @param srq the current SearchRequest object. */
+	public void runPostProcessing(SearchRequest srq)
+	{
+		Request rq = (Request)srq;
+		Map<String,String> controls = rq.getControlHashtable();
+		
+		for(int i=0; i<PostProcesses_Order.length; i++)
+		{
+			String PostProcesses_Name = PostProcesses_Order[i];
+			for(int j=0; j<PostProcesses_Controls[i].length; j++)
+			{
+				String ControlName = PostProcesses_Controls[i][j];
+				String value = (String)controls.get(ControlName);
+				//System.err.println(ControlName+ "("+PostProcesses_Name+") => "+value);
+				if (value == null)
+					continue;
+				value = value.toLowerCase();
+				if(! (value.equals("off") || value.equals("false")))
+				{
+					if (logger.isDebugEnabled()){
+						logger.debug("Processing: "+PostProcesses_Name);
+					}
+					getPostProcessModule(PostProcesses_Name).process(this, srq);
+					//we've now run this post process module, no need to check the rest of the controls for it.
+					break;
+				}
+			}
+		}
+		String lastPP = null;
+		if ((lastPP = ApplicationSetup.getProperty("querying.lastpostprocess",null)) != null)
+		{
+			getPostProcessModule(lastPP).process(this, srq);
+		}
+	}
+	
+	
+	/** Runs the PostFilter modules in order added. PostFilter modules
+	  * filter the resultset. Examples might be removing results that don't have
+	  * a hostname ending in the required postfix (site), or document ids that don't match
+	  * a pattern (scope).
+	  * @param srq the current SearchRequest object. */
+	public void runPostFilters(SearchRequest srq)
+	{
+		Request rq = (Request)srq;
+		PostFilter[] filters = getPostFilters(rq);
+		final int filters_length = filters.length;
+		
+		//the results to filter
+		ResultSet results = rq.getResultSet();
+
+		//the size of the results - this could be more than what we need to display
+		int ResultsSize = results.getResultSize();
+
+		//load in the lower and upper bounds of the resultset
+		String tmp = rq.getControl("start");/* 0 based */
+		if (tmp.length() == 0)
+			tmp = "0";
+		int Start = Integer.parseInt(tmp);
+		tmp = rq.getControl("end");
+		if (tmp.length() == 0)
+			tmp = "0";
+		int End = Integer.parseInt(tmp);/* 0 based */
+		if (End == 0)
+		{
+			End = ResultsSize -1;
+		}
+		int length = End-Start+1;

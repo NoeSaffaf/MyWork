@@ -1,0 +1,66 @@
+ in B-flat major</a> <small></small></td><td class="right nowrap">Flute solo</td></tr>
+<tr class="hilited"><td class="right" style="padding-right:0">12.</td><td style="width:100%"><a href="/tunes.php?id=1106">Duet No. 6 in B-flat major</a> <small></small></td><td class="right nowrap">Flute duet</td></tr>
+<tr><td class="right" style="padding-right:0">13.</td><td style="width:100%"><a href="/tunes.php?id=1124">Study No. 7 in C major</a> <small></small></td><td class="right nowrap">Flute solo</td></tr>
+<tr class="hilited"><td class="right" style="padding-right:0">14.</td><td style="width:100%"><a href="/tunes.php?id=1223">Duet No. 7 in C major</a> <small></small></td><td class="right nowrap">Flute duet</td></tr>
+<tr><td class="right" style="padding-right:0">15.</td><td style="width:100%"><a href="/tunes.php?id=1257">Study No. 8 in B minor</a> <small></small></td><td class="right nowrap">Flute solo</td></tr>
+<tr class="hilited"><td class="right" style="padding-right:0">16.</td><td style="width:100%"><a href="/tunes.php?id=1235">Duet No. 8 in B minor</a> <small></small></td><td class="right nowrap">Flute duet</td></tr>
+<tr><td class="right" style="padding-right:0">17.</td><td style="width:100%"><a href="/tunes.php?id=1273">Study No. 9 in A major</a> <small></small></td><td class="right nowrap">Flute solo</td></tr>
+<tr class="hilited"><td class="right" style="padding-right:0">18.</td><td style="width:100%"><a href="/tunes.php?id=1252">Duet No. 9 in A major</a> <small></small></td><td class="right nowrap">Flute duet</td></tr>
+<tr><td class="right" style="padding-right:0">19.</td><td style="width:100%"><a href="/tunes.php?id=1281">Study No. 10 in F-sharp minor</a> <small></small></td><td class="right nowrap">Flute solo</td></tr>
+<tr class="hilited"><td class="right" style="padding-right:0">20.</td><td style="width:100%"><a href="/tunes.php?id=1268">Duet No. 10 in F-sharp minor</a> <small></small></td><td class="right nowrap">Flute duet</td></tr>
+</table>
+</div>
+<div class="adpost"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle adslot_re"
+     data-ad-client="ca-pub-0413812193020545"
+     data-ad-slot="2481315708"
+     data-ad-format="rectangle"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div class="section">
+<h3>Other Tunes in the same Categories</h3>
+<ul>
+<li>Romantic:<ul><li><a href="/tunes.php?id=574">Flute Sheet Music: Les Dragons d'Alcala (G. Bizet)</a></li><li><a href="/tunes.php?id=2381">Flute Sheet Music: Duet No. 5 in B-flat major (L. Hugues)</a></li></ul></li>
+<li>Written for Flute:<ul><li><a href="/tunes.php?id=987">Flute Sheet Music: Study No. 3 in G major (J. Andersen)</a></li><li><a href="/tunes.php?id=1895">Flute Sheet Music: Presto (J.J. Quantz)</a></li></ul></li>
+</ul>
+</div>
+</div>
+
+<!-- fr -->
+<div id="sm2-container"></div>
+</div>
+</div>
+
+<div id="footer">
+<p>Copyright &copy; 2009–2015.
+<a href="/terms.php">Terms of Use</a> |
+<a href="/privacy.php">Privacy</a> |
+<a href="/contact.php">Contact</a>
+<span class="optional"> |
+<a href="//validator.w3.org/check?uri=referer" title="This page validates as HTML5"><abbr title="HyperText Markup Language">HTML</abbr></a> |
+<a href="//jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a>
+</span>
+</p>
+</div>
+
+</div>
+<script type="text/javascript" src="https://www.flutetunes.com/script/soundmanager2-nodebug-jsmin.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+soundManager.setup({
+    debugMode: false,
+    //consoleOnly: false,
+    url: '/swf/',
+    preferFlash: true,
+    useFlashBlock: true,
+    useHighPerformance: true,
+    wmode: 'transparent',
+    onready: function() {
+        var as = document.getElementsByClassName('audioplay');
+        for (var i = 0; i < as.length; i++) {
+            as[i].onclick = (function(e, i) {
+                return function () {
+                    var s = soundManager.getSoundById('sound'+i);
+                    if (!s) {
+                        s = sou

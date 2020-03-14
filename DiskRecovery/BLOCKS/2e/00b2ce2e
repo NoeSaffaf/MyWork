@@ -1,0 +1,33 @@
+uctures.indexing.singlepass"><span class="typeNameLink">PostingInRun</span></a>
+<ul>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/SimplePostingInRun.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">SimplePostingInRun</span></a>
+<ul>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/BlockPostingInRun.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">BlockPostingInRun</span></a>
+<ul>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/BlockFieldPostingInRun.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">BlockFieldPostingInRun</span></a></li>
+</ul>
+</li>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/FieldPostingInRun.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">FieldPostingInRun</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/RunIterator.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">RunIterator</span></a> (implements java.io.<a href="http://docs.oracle.com/javase/7/docs/api/java/io/Closeable.html?is-external=true" title="class or interface in java.io">Closeable</a>, java.util.<a href="http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html?is-external=true" title="class or interface in java.util">Iterator</a>&lt;E&gt;)
+<ul>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/FileRunIterator.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">FileRunIterator</span></a>&lt;K&gt;</li>
+</ul>
+</li>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/RunIteratorFactory.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">RunIteratorFactory</span></a>
+<ul>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/FileRunIteratorFactory.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">FileRunIteratorFactory</span></a></li>
+</ul>
+</li>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/RunsMerger.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">RunsMerger</span></a></li>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/RunsMerger.PostingComparator.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">RunsMerger.PostingComparator</span></a> (implements java.util.<a href="http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html?is-external=true" title="class or interface in java.util">Comparator</a>&lt;T&gt;, java.io.<a href="http://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>)</li>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/RunWriter.html" title="class in org.terrier.structures.indexing.singlepass"><span class="typeNameLink">RunWriter</span></a></li>
+</ul>
+</li>
+</ul>
+<h2 title="Interface Hierarchy">Interface Hierarchy</h2>
+<ul>
+<li type="circle">org.terrier.structures.indexing.singlepass.<a href="../../../../../org/terrier/structures/indexing/singlepass/SinglePassIndexerFlushDelegate.html" title="interface in org.te

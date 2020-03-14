@@ -1,0 +1,50 @@
+bsp;q)</code>
+<div class="block">Create a ResultSet from the specified list of results</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/matching/daat/CandidateResultSet.html#CandidateResultSet-java.util.Queue-">CandidateResultSet</a></span>(<a href="http://docs.oracle.com/javase/7/docs/api/java/util/Queue.html?is-external=true" title="class or interface in java.util">Queue</a>&lt;<a href="../../../../../org/terrier/matching/daat/CandidateResult.html" title="class in org.terrier.matching.daat">CandidateResult</a>&gt;&nbsp;q)</code>
+<div class="block">Create a ResultSet from the specified queue of results</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/matching/daat/FatCandidateResultSet.html#FatCandidateResultSet-java.util.List-org.terrier.structures.CollectionStatistics-java.lang.String:A-org.terrier.structures.EntryStatistics:A-double:A-">FatCandidateResultSet</a></span>(<a href="http://docs.oracle.com/javase/7/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../../../org/terrier/matching/daat/CandidateResult.html" title="class in org.terrier.matching.daat">CandidateResult</a>&gt;&nbsp;q,
+                     <a href="../../../../../org/terrier/structures/CollectionStatistics.html" title="class in org.terrier.structures">CollectionStatistics</a>&nbsp;cs,
+                     <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;queryTerms,
+                     <a href="../../../../../org/terrier/structures/EntryStatistics.html" title="interface in org.terrier.structures">EntryStatistics</a>[]&nbsp;entryStats,
+                     double[]&nbsp;keyFrequency)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/matching/daat/FatCandidateResultSet.html#FatCandidateResultSet-java.util.Queue-org.terrier.structures.CollectionStatistics-java.lang.String:A-org.terrier.structures.EntryStatistics:A-double:A-">FatCandidateResultSet</a></span>(<a href="http://docs.oracle.com/javase/7/docs/api/java/util/Queue.html?is-external=true" title="class or interface in java.util">Queue</a>&lt;<a href="../../../../../org/terrier/matching/daat/CandidateResult.html" title="class in org.terrier.matching.daat">CandidateResult</a>&gt;&nbsp;q,
+                     <a href="../../../../../org/terrier/structures/CollectionStatistics.html" title="class in org.terrier.structures">CollectionStatistics</a>&nbsp;cs,
+                     <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;queryTerms,
+                     <a href="../../../../../org/terrier/structures/EntryStatistics.html" title="interface in org.terrier.structures">EntryStatistics</a>[]&nbsp;entryStats,
+                     double[]&nbsp;keyFrequency)</code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar.bottom">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.bottom.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../overview-summary.html">Overview</a></li>
+<li><a href="../package-summary.html">Package</a></li>
+<li><a href="../../../../../org/terrier/matching/daat/CandidateResult.html" title="class in org.terrier.matching.daat">Class</a></li>
+<li class="navBarCell1Rev">Use</li>
+<li><a href="../../../../../overview-tree.html">Tree</a></li>
+<li><a href="../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">

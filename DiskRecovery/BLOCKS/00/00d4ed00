@@ -1,0 +1,122 @@
+ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="fieldCount">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>fieldCount</h4>
+<pre>protected&nbsp;int fieldCount</pre>
+</li>
+</ul>
+<a name="fieldWeights">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>fieldWeights</h4>
+<pre>protected&nbsp;double[] fieldWeights</pre>
+</li>
+</ul>
+<a name="p">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>p</h4>
+<pre>protected&nbsp;double[] p</pre>
+</li>
+</ul>
+<a name="fieldTermFrequencies">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>fieldTermFrequencies</h4>
+<pre>protected&nbsp;int[] fieldTermFrequencies</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="MDL2-java.lang.String:A-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>MDL2</h4>
+<pre>public&nbsp;MDL2(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;parameters)
+     throws <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></pre>
+<div class="block">Constructs an instance of MDL2.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>parameters</code> - </dd>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true" title="class or interface in java.lang">Exception</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="MDL2--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>MDL2</h4>
+<pre>public&nbsp;MDL2()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="getInfo--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getInfo</h4>
+<pre>public&nbsp;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;getInfo()</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../../../../org/terrier/matching/models/WeightingModel.html#getInfo--">WeightingModel</a></code></span></div>
+<div class="block">Returns the name of the model.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../org/terrier/matching/Model.html#getInfo--">getInfo</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../org/terrier/matching/Model.html" title="interface in org.terrier.matching">Model</a></code></dd>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../org/terrier/matching/models/WeightingModel.html#getInfo--">getInfo</a></code>&nbsp;in class&nbsp;<code><a href="../../../../org/terrier/matching/models/WeightingModel.html" title="class in org.terrier.matching.models">WeightingModel</a></code></dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>java.lang.String</dd>
+</dl>
+</li>
+</ul>
+<a name="prepare--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>prepare</h4>
+<pre>public&nbsp;void&nbsp;prepare()</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../../../../org/terrier/matching/models/WeightingModel.html#prepare--">WeightingModel</a></code></span></div>
+<div class="block">prepare</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code><a href="../../../../org/terrier/matching/models/WeightingModel.html#prepare--">prepare</a></code>&nbsp;i

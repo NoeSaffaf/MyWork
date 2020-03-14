@@ -1,0 +1,94 @@
+>
+<li>org.terrier.structures.indexing.singlepass.hadoop.WritableByteArray</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>org.apache.hadoop.io.Writable</dd>
+</dl>
+<dl>
+<dt>Direct Known Subclasses:</dt>
+<dd><a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/MapEmittedPostingList.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">MapEmittedPostingList</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="typeNameLabel">WritableByteArray</span>
+extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
+implements org.apache.hadoop.io.Writable</pre>
+<div class="block">Represents a Writable Posting List. This can contain in addition to the
+ posting list, the Document Frequency and Term Frequency. This class is needed
+ because Hadoop must know how to write out the intermediate map output during
+ indexing</div>
+<dl>
+<dt><span class="simpleTagLabel">Since:</span></dt>
+<dd>2.2</dd>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>Richard McCreadie</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
+<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected byte[]</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/WritableByteArray.html#array">array</a></span></code>
+<div class="block">Posting List</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/WritableByteArray.html#arraylength">arraylength</a></span></code>
+<div class="block">Size of the Posting List</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/WritableByteArray.html#DocumentFreq">DocumentFreq</a></span></code>
+<div class="block">Document Frequency</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/WritableByteArray.html#TermFreq">TermFreq</a></span></code>
+<div class="block">Term Frequency</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/WritableByteArray.html#WritableByteArray--">WritableByteArray</a></span>()</code>
+<div class="block">Empty Constructor</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/structures/indexing/singlepass/hadoop/WritableByteArray.html#WritableByteArray-int-">WritableByteArray</a></span

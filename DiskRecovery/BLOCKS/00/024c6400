@@ -1,0 +1,66 @@
+>
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier</th>
+<th class="colLast" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected </code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/indexing/MultiDocumentFileCollection.html#MultiDocumentFileCollection--">MultiDocumentFileCollection</a></span>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t3" class="tableTab"><span><a href="javascript:show(4);">Abstract Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/indexing/MultiDocumentFileCollection.html#close--">close</a></span>()</code>
+<div class="block">Closes the collection, any files that may be open.</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/indexing/MultiDocumentFileCollection.html#endOfCollection--">endOfCollection</a></span>()</code>
+<div class="block">Returns true if the end of the collection has been reached</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>protected void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/indexing/MultiDocumentFileCollection.html#extractCharset--">extractCharset</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>abstract <a href="../../../org/terrier/indexing/Document.html" title="interface in org.terrier.indexing">Document</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/indexing/MultiDocumentFileCollection.html#getDocument--">getDocument</a></span>()</code>
+<div class="block">Get the document object representing the current document.</div>
+</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/indexing/MultiDocumentFileCollection.html#hasNext--">hasNext</a></span>()</code>
+<div class="block">Check whether it is the last document in the collection</div>
+</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>protected void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/indexing/MultiDocumentFileCollection.html#loadDocumentClass--">loadDocumentClass</a></span>()</code>
+<div class="block">Loads the class that will supply all documents for this Collection.</div>
+</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code><a href="../../../org/terrier/indexing/Document.html" title="interface in org.terrier.indexing">Document</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/indexing/MultiDocumentFileCollection

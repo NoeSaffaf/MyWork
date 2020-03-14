@@ -1,0 +1,80 @@
+ctures/class-use/EntryStatistics.html#org.terrier.matching.daat">EntryStatistics</a>
+<div class="block">An interface for basic statistics about a lexical entry (usually a term)</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colOne"><a href="../../../org/terrier/structures/class-use/Index.html#org.terrier.matching.daat">Index</a>
+<div class="block">This class encapsulates all the Indexes at retrieval time.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.matching.dsms">
+<!--   -->
+</a>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing classes, and an explanation">
+<caption><span>Classes in <a href="../../../org/terrier/structures/package-summary.html">org.terrier.structures</a> used by <a href="../../../org/terrier/matching/dsms/package-summary.html">org.terrier.matching.dsms</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Class and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colOne"><a href="../../../org/terrier/structures/class-use/CollectionStatistics.html#org.terrier.matching.dsms">CollectionStatistics</a>
+<div class="block">This class provides basic statistics for the indexed
+ collection of documents, such as the average length of documents,
+ or the total number of documents in the collection.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><a href="../../../org/terrier/structures/class-use/EntryStatistics.html#org.terrier.matching.dsms">EntryStatistics</a>
+<div class="block">An interface for basic statistics about a lexical entry (usually a term)</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colOne"><a href="../../../org/terrier/structures/class-use/Index.html#org.terrier.matching.dsms">Index</a>
+<div class="block">This class encapsulates all the Indexes at retrieval time.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><a href="../../../org/terrier/structures/class-use/LexiconEntry.html#org.terrier.matching.dsms">LexiconEntry</a>
+<div class="block">Represents the statistics of a term in the <a href="../../../org/terrier/structures/Lexicon.html" title="class in org.terrier.structures"><code>Lexicon</code></a>, and
+ a pointer to the term's location in a <a href="../../../org/terrier/structures/PostingIndex.html" title="interface in org.terrier.structures"><code>PostingIndex</code></a>.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.matching.models">
+<!--   -->
+</a>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing classes, and an explanation">
+<caption><span>Classes in <a href="../../../org/terrier/structures/package-summary.html">org.terrier.structures</a> used by <a href="../../../org/terrier/matching/models/package-summary.html">org.terrier.matching.models</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Class and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colOne"><a href="../../../org/terrier/structures/class-use/CollectionStatistics.html#org.terrier.matching.models">CollectionStatistics</a>
+<div class="block">This class provides basic statistics for the indexed
+ collection of documents, such as the average length of documents,
+ or the total number of documents in the collection.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><a href="../../../org/terrier/structures/class-use/EntryStatistics.html#org.terrier.matching.models">EntryStatistics</a>
+<div class="block">An interface for basic statistics about a lexical entry (usually a term)</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colOne"><a href="../../../org/terrier/structures/class-use/Index.html#org.terrier.matching.models">Index</a>
+<div class="block">This class encapsulates all the Indexes at retrieval time.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.matching.tsms">
+<!--   -->
+</a>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing clas

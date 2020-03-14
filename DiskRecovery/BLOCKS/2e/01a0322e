@@ -1,0 +1,38 @@
+ier.structures.indexing.singlepass">Posting</a></dt>
+<dd>
+<div class="block">Returns the size of the underlying buffer representing this posting set.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/NonIncrementalDocumentIndexEntry.Factory.html#getSize--">getSize()</a></span> - Method in class org.terrier.structures.<a href="org/terrier/structures/NonIncrementalDocumentIndexEntry.Factory.html" title="class in org.terrier.structures">NonIncrementalDocumentIndexEntry.Factory</a></dt>
+<dd>
+<div class="block">Returns 21?</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/seralization/FixedSizeIntWritableFactory.html#getSize--">getSize()</a></span> - Method in class org.terrier.structures.seralization.<a href="org/terrier/structures/seralization/FixedSizeIntWritableFactory.html" title="class in org.terrier.structures.seralization">FixedSizeIntWritableFactory</a></dt>
+<dd>
+<div class="block">Return size of IntWritable, namely 4 bytes</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/seralization/FixedSizeTextFactory.html#getSize--">getSize()</a></span> - Method in class org.terrier.structures.seralization.<a href="org/terrier/structures/seralization/FixedSizeTextFactory.html" title="class in org.terrier.structures.seralization">FixedSizeTextFactory</a></dt>
+<dd>
+<div class="block">Returns the size of instance of this class when written using Writable</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/seralization/FixedSizeWriteableFactory.html#getSize--">getSize()</a></span> - Method in interface org.terrier.structures.seralization.<a href="org/terrier/structures/seralization/FixedSizeWriteableFactory.html" title="interface in org.terrier.structures.seralization">FixedSizeWriteableFactory</a></dt>
+<dd>
+<div class="block">Returns the size in bytes when T is written 
+ to disk by Writable interface methods</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/SimpleBitIndexPointer.Factory.html#getSize--">getSize()</a></span> - Method in class org.terrier.structures.<a href="org/terrier/structures/SimpleBitIndexPointer.Factory.html" title="class in org.terrier.structures">SimpleBitIndexPointer.Factory</a></dt>
+<dd>
+<div class="block">Returns the size in bytes when T is written 
+ to disk by Writable interface methods</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/SimpleDocumentIndexEntry.Factory.html#getSize--">getSize()</a></span> - Method in class org.terrier.structures.<a href="org/terrier/structures/SimpleDocumentIndexEntry.Factory.html" title="class in org.terrier.structures">SimpleDocumentIndexEntry.Factory</a></dt>
+<dd>
+<div class="block">Returns the size in bytes when T is written 
+ to disk by Writable interface methods</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/matching/models/StaticScoreModifierWeightingModel.html#getSource--">getSource()</a></span> - Method in class org.terrier.matching.models.<a href="org/terrier/matching/models/StaticScoreModifierWeightingModel.html" title="class in org.terrier.matching.models">StaticScoreModifierWeightingModel</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/indexing/singlepass/hadoop/Inv2DirectMultiReduce.Inv2DirectMultiReduceJob.html#getSourceLookupStructureName--">getSourceLookupStructureName()</a></span> - Method in class org.terrier.structures.indexing.singlepass.hadoop.<a href="org/terrier/structures/indexing/singlepass/hadoop/Inv2DirectMultiReduce.Inv2DirectMultiReduceJob.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">Inv2DirectMultiReduce.Inv2DirectMultiReduceJob</a></dt>
+<dd>
+<div class="block">Name of the lookup structure for the source structure.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/indexing/singlepass/hadoop/Inv2DirectMultiReduce.Inv2DirectMultiReduceJob.html#getSourceStructureName--">getSourceStructureName()</a></span> - Method in class org.terrier.structures.indexing.singlepass.hadoop.<

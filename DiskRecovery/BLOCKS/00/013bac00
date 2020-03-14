@@ -1,0 +1,63 @@
+lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../../org/terrier/structures/indexing/Indexer.html" title="class in org.terrier.structures.indexing">org.terrier.structures.indexing.Indexer</a></li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../../org/terrier/structures/indexing/classical/BasicIndexer.html" title="class in org.terrier.structures.indexing.classical">org.terrier.structures.indexing.classical.BasicIndexer</a></li>
+<li>
+<ul class="inheritance">
+<li>org.terrier.structures.indexing.singlepass.BasicSinglePassIndexer</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>Direct Known Subclasses:</dt>
+<dd><a href="../../../../../org/terrier/structures/indexing/singlepass/BlockSinglePassIndexer.html" title="class in org.terrier.structures.indexing.singlepass">BlockSinglePassIndexer</a>, <a href="../../../../../org/terrier/structures/indexing/singlepass/ExtensibleSinglePassIndexer.html" title="class in org.terrier.structures.indexing.singlepass">ExtensibleSinglePassIndexer</a>, <a href="../../../../../org/terrier/structures/indexing/singlepass/hadoop/Hadoop_BasicSinglePassIndexer.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">Hadoop_BasicSinglePassIndexer</a>, <a href="../../../../../org/terrier/structures/indexing/singlepass/NoDuplicatesSinglePassIndexing.html" title="class in org.terrier.structures.indexing.singlepass">NoDuplicatesSinglePassIndexing</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="typeNameLabel">BasicSinglePassIndexer</span>
+extends <a href="../../../../../org/terrier/structures/indexing/classical/BasicIndexer.html" title="class in org.terrier.structures.indexing.classical">BasicIndexer</a></pre>
+<div class="block">This class indexes a document collection (skipping the direct file construction). It implements a single-pass algorithm,
+ that operates in two phases:<br>
+ First, it traverses the document collection, passes the terms through the TermPipeline and builds an in-memory
+ representation of the posting lists. When it has exhausted the main memory, it flushes the sorted postings to disk, along
+ with the lexicon (collectively known as a <i>run</i>, and continues traversing the collection.<br>
+ The second phase, merges the sorted runs (with their partial lexicons) in disk to create the final inverted file.
+ This class follows the template pattern, so the main bulk of the code is reused for block (and fields) indexing. There are a few hook methods,
+ that chooses the right classes to instantiate, depending on the indexing options defined.
+ <p>
+ Memory tracking is a key concern in this class. Four properties are provided for checking the amount of memory
+ consumed, how regularly to check the memory, and (optional) maximums on the amount of memory that
+ can be used for the postings, or on the number of documents before a flush is comitted.
+ <p>
+ <b>Properties:</b>
+ <ul>
+ <li><tt>memory.reserved</tt> - amount of free memory threshold before a run is committed. 
+ Default is 50 000 000 (50MB) and 100 000 000 (100MB) for 32bit and 64bit JVMs respectively.</li>
+ <li><tt>memory.heap.usage</tt> - proportion of max heap allocated to JVM before a run is committed. Default 0.70.</li>
+ <li><tt>indexing.singlepass.max.postings.memory</tt> - maximum amount of memory that the postings can consume before a run is committed. Default is 0, which is no limit.</li>
+ <li><tt>indexing.singlepass.max.documents.flush</tt> - maximum number of documents before a run is committed. Default is 0, which is no limit.</li>
+ <li><tt>docs.check</tt> - interval of how many documents indexed should the amount of free memory be checked. Default is 20 - check memory consumption every 20 documents.</li>
+ </ul></div>
+<dl>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>Roi Blanco</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== NESTED CLASS SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="nested.class.su

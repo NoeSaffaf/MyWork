@@ -1,0 +1,78 @@
+problem Mechanical {
+    tolerance_delta_epsilon 1.e-4
+    tolerance_equilibrium 1.e-4    
+    reference_stiffness {
+	sym isotropic {
+	    E 105000.
+	    nu 0.3
+	}
+    }
+}
+
+algorithm LS_base
+
+solver CG {
+    max_iter 50
+    tolerance_residual 1.e-4
+    initial_solution_vector 1
+}
+
+
+geometry r_file { 
+    file "../eshelby/geometry.json"
+}
+
+
+material_properties {
+    steel elasticity {
+	stiffness {
+	    sym isotropic
+	    E 210000.
+	    nu 0.3
+	}
+    }
+    void elasticity {
+	stiffness {
+	    sym isotropic
+	    E 210.
+	    nu 0.3
+	}
+    }
+}
+
+voxels {
+    type {
+	Mechanical  "matrix inclusion"
+    }
+    FFT_derivatives Mechanical {
+	Gamma rotated
+	Equilibrium rotated	
+    }
+    vsets_properties {
+	matrix steel
+	inclusion void
+    }
+}
+
+behaviors {
+    elasticity {
+	vsets "matrix inclusion"
+    }
+}
+
+initial_conditions  {
+    defined_by_vtr_file "../eshelby/eshelby_0.vtr"  {
+	strain_total strain_total
+    }
+}
+
+
+applied_conditions mechanical_linear {
+    E "0.01 0 0 -0.003 0 -0.003"
+}
+
+output {
+    vtr {
+	variables "strain_total stress"
+    }
+}

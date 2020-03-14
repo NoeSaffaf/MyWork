@@ -1,0 +1,83 @@
+conOutputStream for FSOMapFileLexicon.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/Index.html" title="class in org.terrier.structures">Index</a></td>
+<td class="colLast">
+<div class="block">This class encapsulates all the Indexes at retrieval time.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/IndexOnDisk.html" title="class in org.terrier.structures">IndexOnDisk</a></td>
+<td class="colLast">
+<div class="block">The replacement for what was Index in earlier Terrier versions.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/IndexUtil.html" title="class in org.terrier.structures">IndexUtil</a></td>
+<td class="colLast">
+<div class="block">Class with handy utilities for use on an Index.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/Lexicon.html" title="class in org.terrier.structures">Lexicon</a>&lt;KEY&gt;</td>
+<td class="colLast">
+<div class="block">Abstract Lexicon implementation.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/LexiconEntry.html" title="class in org.terrier.structures">LexiconEntry</a></td>
+<td class="colLast">
+<div class="block">Represents the statistics of a term in the <a href="../../../org/terrier/structures/Lexicon.html" title="class in org.terrier.structures"><code>Lexicon</code></a>, and
+ a pointer to the term's location in a <a href="../../../org/terrier/structures/PostingIndex.html" title="interface in org.terrier.structures"><code>PostingIndex</code></a>.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/LexiconOutputStream.html" title="class in org.terrier.structures">LexiconOutputStream</a>&lt;KEY&gt;</td>
+<td class="colLast">
+<div class="block">This class implements an output stream for the lexicon structure.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/LexiconUtil.html" title="class in org.terrier.structures">LexiconUtil</a></td>
+<td class="colLast">
+<div class="block">Lexicon utilities class.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/MapLexicon.html" title="class in org.terrier.structures">MapLexicon</a></td>
+<td class="colLast">
+<div class="block">Implementation of a lexicon.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/MapLexicon.IdIsIndex.html" title="class in org.terrier.structures">MapLexicon.IdIsIndex</a></td>
+<td class="colLast">
+<div class="block">Lexicon map where the termid is the term index</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/NonIncrementalDocumentIndexEntry.html" title="class in org.terrier.structures">NonIncrementalDocumentIndexEntry</a></td>
+<td class="colLast">
+<div class="block">This class is created to represent a <code>DocumentIndexEntry</code> that 
+ do not assume an incremental docids, but instead maintains the docid.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/NonIncrementalDocumentIndexEntry.Factory.html" title="class in org.terrier.structures">NonIncrementalDocumentIndexEntry.Factory</a></td>
+<td class="colLast">
+<div class="block">Returna a factory for creating document index entries</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/PostingIndex.DocidSpecificDocumentIndex.html" title="class in org.terrier.structures">PostingIndex.DocidSpecificDocumentIndex</a></td>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a href="../../../org/terrier/structures/SimpleBitIndexPointer.html" title="class in org.terrier.structures">SimpleBitIndexPointer</a></td>
+<td class="colLast">
+<div class="block">An implementation of a BitIndexPointer.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td

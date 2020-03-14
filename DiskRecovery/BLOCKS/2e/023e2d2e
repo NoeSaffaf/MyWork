@@ -1,0 +1,58 @@
+(<a href="../../../../org/terrier/structures/EntryStatistics.html" title="interface in org.terrier.structures">EntryStatistics</a>&nbsp;_es)</code>
+<div class="block">Sets entry statistics.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.org.terrier.matching.models.WeightingModel">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;org.terrier.matching.models.<a href="../../../../org/terrier/matching/models/WeightingModel.html" title="class in org.terrier.matching.models">WeightingModel</a></h3>
+<code><a href="../../../../org/terrier/matching/models/WeightingModel.html#getOverflowed-int-">getOverflowed</a>, <a href="../../../../org/terrier/matching/models/WeightingModel.html#getParameter--">getParameter</a>, <a href="../../../../org/terrier/matching/models/WeightingModel.html#setKeyFrequency-double-">setKeyFrequency</a>, <a href="../../../../org/terrier/matching/models/WeightingModel.html#setParameter-double-">setParameter</a>, <a href="../../../../org/terrier/matching/models/WeightingModel.html#setRequest-org.terrier.querying.Request-">setRequest</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#equals-java.lang.Object-" title="class or interface in java.lang">equals</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#finalize--" title="class or interface in java.lang">finalize</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#getClass--" title="class or interface in java.lang">getClass</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#hashCode--" title="class or interface in java.lang">hashCode</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#notify--" title="class or interface in java.lang">notify</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#notifyAll--" title="class or interface in java.lang">notifyAll</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#toString--" title="class or interface in java.lang">toString</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#wait--" title="class or interface in java.lang">wait</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#wait-long-" title="class or interface in java.lang">wait</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#wait-long-int-" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="params">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>params</h4>
+<pre>protected&nbsp;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[] params</pre>
+</li>
+</ul>
+<a name="basicModel">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>basicModel</h4>
+<pre>protected&nbsp;<a href="../../../../org/terrier/matching/models/basicmodel/BasicModel.html" title="class in org.terrier.matching.models.basicmodel">BasicModel</a> basicModel</pre>
+</li>
+</ul>
+<a name="fieldNormalisations">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>fieldNormalisations</h4>
+<pre>protected&nbsp;<a href="../../../../org/terrier/matching/models/normalisation/Normalisation.html"

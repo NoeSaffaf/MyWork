@@ -1,0 +1,59 @@
+>blocksCodec</code> - the IntegerCodec to use to compress blocks (null if there are no blocks)</dd>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code><a href="http://docs.oracle.com/javase/7/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="init-int-int-int-int-org.terrier.compression.integer.codec.IntegerCodec-org.terrier.compression.integer.codec.IntegerCodec-org.terrier.compression.integer.codec.IntegerCodec-org.terrier.compression.integer.codec.IntegerCodec-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>init</h4>
+<pre>protected&nbsp;void&nbsp;init(int&nbsp;fieldsCount,
+                    int&nbsp;hasBlocks,
+                    int&nbsp;maxBlocks,
+                    int&nbsp;chunkSize,
+                    <a href="../../../../org/terrier/compression/integer/codec/IntegerCodec.html" title="class in org.terrier.compression.integer.codec">IntegerCodec</a>&nbsp;idsCodec,
+                    <a href="../../../../org/terrier/compression/integer/codec/IntegerCodec.html" title="class in org.terrier.compression.integer.codec">IntegerCodec</a>&nbsp;tfsCodec,
+                    <a href="../../../../org/terrier/compression/integer/codec/IntegerCodec.html" title="class in org.terrier.compression.integer.codec">IntegerCodec</a>&nbsp;fieldsCodec,
+                    <a href="../../../../org/terrier/compression/integer/codec/IntegerCodec.html" title="class in org.terrier.compression.integer.codec">IntegerCodec</a>&nbsp;blocksCodec)</pre>
+</li>
+</ul>
+<a name="getPostingIteratorClass--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getPostingIteratorClass</h4>
+<pre>public&nbsp;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Class.html?is-external=true" title="class or interface in java.lang">Class</a>&lt;? extends <a href="../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a>&gt;&nbsp;getPostingIteratorClass()</pre>
+<div class="block">Returns the IterablePosting class to use for reading structure written by
+ this class</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../org/terrier/structures/AbstractPostingOutputStream.html#getPostingIteratorClass--">getPostingIteratorClass</a></code>&nbsp;in class&nbsp;<code><a href="../../../../org/terrier/structures/AbstractPostingOutputStream.html" title="class in org.terrier.structures">AbstractPostingOutputStream</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="writePostings-org.terrier.structures.postings.IterablePosting-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>writePostings</h4>
+<pre>public&nbsp;<a href="../../../../org/terrier/structures/BitIndexPointer.html" title="interface in org.terrier.structures">BitIndexPointer</a>&nbsp;writePostings(<a href="../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a>&nbsp;postings)
+                              throws <a href="http://docs.oracle.com/javase/7/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></pre>
+<div class="block">Write out the specified postings.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../org/terrier/structures/AbstractPostingOutputStream.html#writePostings-org.terrier.structures.postings.IterablePosting-">writePostings</a></code>&nbsp;in class&nbsp;<code><a href="../../../../org/terrier/structures/AbstractPostingOutputStream.html" title="class in org.terrier.structures">AbstractPostingOutputStream</a></code></dd>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>postings</code> - IterablePosting postings accessed through an IterablePosting

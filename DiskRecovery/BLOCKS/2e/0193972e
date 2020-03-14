@@ -1,0 +1,32 @@
+./../org/terrier/realtime/WritableIndex.html" title="interface in org.terrier.realtime">WritableIndex</a>)
+<ul>
+<li type="circle">org.terrier.realtime.memory.fields.<a href="../../../../../org/terrier/realtime/memory/fields/MemoryFields.html" title="class in org.terrier.realtime.memory.fields"><span class="typeNameLink">MemoryFields</span></a>
+<ul>
+<li type="circle">org.terrier.realtime.memory.fields.<a href="../../../../../org/terrier/realtime/memory/fields/MemoryFieldsIndex.html" title="class in org.terrier.realtime.memory.fields"><span class="typeNameLink">MemoryFieldsIndex</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li type="circle">org.terrier.structures.postings.<a href="../../../../../org/terrier/structures/postings/IterablePostingImpl.html" title="class in org.terrier.structures.postings"><span class="typeNameLink">IterablePostingImpl</span></a> (implements org.terrier.structures.postings.<a href="../../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a>)
+<ul>
+<li type="circle">org.terrier.realtime.memory.<a href="../../../../../org/terrier/realtime/memory/MemoryIterablePosting.html" title="class in org.terrier.realtime.memory"><span class="typeNameLink">MemoryIterablePosting</span></a>
+<ul>
+<li type="circle">org.terrier.realtime.memory.fields.<a href="../../../../../org/terrier/realtime/memory/fields/MemoryFieldsIterablePosting.html" title="class in org.terrier.realtime.memory.fields"><span class="typeNameLink">MemoryFieldsIterablePosting</span></a> (implements org.terrier.structures.postings.<a href="../../../../../org/terrier/structures/postings/FieldPosting.html" title="interface in org.terrier.structures.postings">FieldPosting</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li type="circle">org.terrier.structures.<a href="../../../../../org/terrier/structures/LexiconEntry.html" title="class in org.terrier.structures"><span class="typeNameLink">LexiconEntry</span></a> (implements org.terrier.structures.<a href="../../../../../org/terrier/structures/EntryStatistics.html" title="interface in org.terrier.structures">EntryStatistics</a>, org.terrier.structures.<a href="../../../../../org/terrier/structures/Pointer.html" title="interface in org.terrier.structures">Pointer</a>, org.apache.hadoop.io.Writable)
+<ul>
+<li type="circle">org.terrier.realtime.memory.<a href="../../../../../org/terrier/realtime/memory/MemoryLexiconEntry.html" title="class in org.terrier.realtime.memory"><span class="typeNameLink">MemoryLexiconEntry</span></a> (implements org.terrier.realtime.memory.<a href="../../../../../org/terrier/realtime/memory/MemoryPointer.html" title="interface in org.terrier.realtime.memory">MemoryPointer</a>, java.io.<a href="http://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>)
+<ul>
+<li type="circle">org.terrier.realtime.memory.fields.<a href="../../../../../org/terrier/realtime/memory/fields/MemoryFieldsLexiconEntry.html" title="class in org.terrier.realtime.memory.fields"><span class="typeNameLink">MemoryFieldsLexiconEntry</span></a> (implements org.terrier.structures.<a href="../../../../../org/terrier/structures/FieldEntryStatistics.html" title="interface in org.terrier.structures">FieldEntryStatistics</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li type="circle">org.terrier.realtime.memory.<a href="../../../../../org/terrier/realtime/memory/MemoryDocumentIndex.html" title="class in org.terrier.realtime.memory"><span class="typeNameLink">MemoryDocumentIndex</span></a> (implements org.terrier.structures.<a href="../../../../../org/terrier/structures/DocumentIndex.html" title="interface in org.terrier.structures">DocumentIndex</a>, java.io.<a href="http://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>)
+<ul>
+<li type="circle">org.terrier.realtime.memory.fields.<a href="../../../../../org/terrier/realtime/memory/fields/MemoryDocumentIndexFields.html" title="class in org.terr

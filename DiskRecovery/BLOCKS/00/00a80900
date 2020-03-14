@@ -1,0 +1,89 @@
+terrier.querying">org.terrier.querying.FeedbackSelector</a></li>
+<li>
+<ul class="inheritance">
+<li>org.terrier.querying.PseudoRelevanceFeedbackSelector</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<hr>
+<br>
+<pre>public class <span class="typeNameLabel">PseudoRelevanceFeedbackSelector</span>
+extends <a href="../../../org/terrier/querying/FeedbackSelector.html" title="class in org.terrier.querying">FeedbackSelector</a></pre>
+<div class="block">A feedback selector for pseudo-relevance feedback. Selects the top ApplicationSetup.EXPANSION_DOCUMENTS
+ documents from the ResultSet attached to the specified request.</div>
+<dl>
+<dt><span class="simpleTagLabel">Since:</span></dt>
+<dd>3.0</dd>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>Craig Macdonald</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<ul class="blockList">
+<li class="blockList"><a name="fields.inherited.from.class.org.terrier.querying.FeedbackSelector">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;org.terrier.querying.<a href="../../../org/terrier/querying/FeedbackSelector.html" title="class in org.terrier.querying">FeedbackSelector</a></h3>
+<code><a href="../../../org/terrier/querying/FeedbackSelector.html#index">index</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../org/terrier/querying/PseudoRelevanceFeedbackSelector.html#PseudoRelevanceFeedbackSelector--">PseudoRelevanceFeedbackSelector</a></span>()</code>
+<div class="block">default constructor</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code><a href="../../../org/terrier/querying/FeedbackDocument.html" title="class in org.terrier.querying">FeedbackDocument</a>[]</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/querying/PseudoRelevanceFeedbackSelector.html#getFeedbackDocuments-org.terrier.querying.Request-">getFeedbackDocuments</a></span>(<a href="../../../org/terrier/querying/Request.html" title="class in org.terrier.querying">Request</a>&nbsp;request)</code>
+<div class="block">Obtain feedback documents for the specified query request</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.org.terrier.querying.FeedbackSelector">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;org.terrier.querying.<a href="../../../org/terrier/querying/FeedbackSelector.html" title="class in org.terrier.querying">FeedbackSelector</a></h3>
+<code><a href

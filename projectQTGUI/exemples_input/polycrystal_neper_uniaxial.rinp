@@ -1,0 +1,77 @@
+problem Mechanical {
+    tolerance_delta_epsilon 1.e-4
+    tolerance_equilibrium 1.e-4
+    reference_stiffness {
+	sym cubic {
+	    C11 84200.
+	    C12 60700.
+	    C44 37695.
+	}
+    }
+}
+
+algorithm LS_base
+
+threading {
+    fftw 3
+    voxels 3
+    unknowns 3
+}
+
+solver biCGstab {
+    max_iter 200
+    tolerance_residual 1.e-5
+}
+
+geometry tesr_file { ; tells whe read native tesr format
+    file poly.tesr ; path to the ters, relative to the input file
+    ori poly.ori ; path to the grain orientations file
+}
+
+material_properties {
+    copper elasticity {
+	stiffness {
+	    sym cubic
+	    C11 168400.
+	    C12 121400.
+	    C44 75390.
+	}
+    }
+}
+
+voxels {
+    type {
+	Mechanical  "ALL" ; all voxels has the type Voxel_Mechanical
+    }
+    FFT_derivatives Mechanical {
+	Gamma rotated
+	Equilibrium rotated
+    }
+
+    vsets_properties {
+	EACH copper { ; all vsets (in this case, grains) are made of copper
+	    rotation ori_euler ; expects euler angles in ori file
+	}
+    }
+}
+
+
+behaviors {
+    elasticity {
+	vsets "range 1 30" ; vsets (grains) from 1 to 50 are elastic
+    }
+}
+
+applied_conditions mechanical_linear {
+    ; order   11   12 13 22 23 33
+    ;E "0.01 0 0 -0.003 0 -0.003"
+    mixed_BC "E    S  S  S  S  S"
+    E 	     "0.01 0  0  0  0  0"
+    S        "0    0  0  0  0  0"
+}
+
+output {
+    vtr {
+	variables "strain_total stress"
+    }
+}

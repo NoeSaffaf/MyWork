@@ -1,0 +1,16 @@
+Compte rendu de mon programme
+Noe SAFFAF
+
+il y a 9fonctions + 2 qui sont des amélioration de la 7eme et la 9eme
+
+les 6 premiere fonctions sont des petites fonctions qui explique la demarche,
+
+la fonction 07.sh lit recovery.dat et récupere une 100aine (nombre modifiable) de fichier reconstruit
+la fonction 07autre.sh est une amélioration qui prend en paramètre le premier fichier 043560 et le dernier fichier voulu (ex:043700)
+
+la fonction 08.sh est...
+
+la fonction 09.sh lit les fichiers dans le repertoire RecoveredFile et en fait une copie avec la bonne extention
+la fonction 09autre.sh est une amélioration qui prend en paramètre le premier fichier 043560 et le dernier fichier voulu (ex:043700)
+
+IMPORTANT, IL FAUT TOUT COPIER DANS LE FICHIER DISKRECOVERY, SURTOUT RECOVEREDFILE

@@ -1,0 +1,62 @@
+ry" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing subclasses, and an explanation">
+<caption><span>Subclasses of <a href="../../../../../../org/terrier/matching/models/basicmodel/BasicModel.html" title="class in org.terrier.matching.models.basicmodel">BasicModel</a> in <a href="../../../../../../org/terrier/matching/models/basicmodel/package-summary.html">org.terrier.matching.models.basicmodel</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Class and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/B.html" title="class in org.terrier.matching.models.basicmodel">B</a></span></code>
+<div class="block">This class implements the B basic model for randomness.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/BM.html" title="class in org.terrier.matching.models.basicmodel">BM</a></span></code>
+<div class="block">This class implements the BM weighting model, which generates the original
+ weight given by the BM25 formula, without frequency normalisation and query
+ term weighting.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/Br.html" title="class in org.terrier.matching.models.basicmodel">Br</a></span></code>
+<div class="block">This class implements the Bernoulli model of randomness</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/DFR_BM.html" title="class in org.terrier.matching.models.basicmodel">DFR_BM</a></span></code>
+<div class="block">This class implements the DFR BM weighting model, which is an approximation of 
+ BM25 in the DFR framework.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/IF.html" title="class in org.terrier.matching.models.basicmodel">IF</a></span></code>
+<div class="block">This class implements the IF basic model for randomness.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/In.html" title="class in org.terrier.matching.models.basicmodel">In</a></span></code>
+<div class="block">This class implements the In basic model for randomness.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/In_exp.html" title="class in org.terrier.matching.models.basicmodel">In_exp</a></span></code>
+<div class="block">This class implements the In_exp basic model for randomness.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/P.html" title="class in org.terrier.matching.models.basicmodel">P</a></span></code>
+<div class="block">This class implements the P basic model for randomness.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../org/terrier/matching/models/basicmodel/PL.html" title="class in org.terrier.matching.models.basicmodel">PL</a></span></code>
+<div class="block">This class implemen

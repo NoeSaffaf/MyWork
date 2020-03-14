@@ -1,0 +1,29 @@
+I put here some codes of my project in different fields of computer scien. It is just a simple
+presentation and does not represent all the work I did in y school, just a little introduction of what
+I do and I can do.
+
+I've put the main code just so you can grasp the idea, because if a limited amount of space I have on git.
+I've deleted some unnecessary files lie images or build files. So it may not work on running.
+
+Here are the projects I've put here (all in french), just have a quick glance on what you're interested on:
+
+Project AI:
+The most recent one, it's just my code to create IA solving problems lie the wolf/goat/cabbage problem or missionary problem.
+I started those courses recently, and did a bit of coding to try it out.
+
+Projet MatlabComputerVision:
+A machine learning classifier, a matlab code that use a dataset of image to classify through a model of logistic regression two classes.
+There is a part to create the classifier, and another which is an application to a problem of dataset images of melanoma(skin cancer).
+
+Project QTGUI:
+A QT project to develop an interface so a user can imput parameters and initials conditions of a limit element problem. It return a automatticaly
+generated configuration file that can be used for running a simulation program (not present here). 
+
+Projectmajeur:
+My major project, create a webpage, androidapp, arduino script, connected to a springserver (also developed) that refresh a database in real time,
+and allow to modify the status of a philips lamp remotely using MQTT and Http protocols.
+
+Project DiskRecovery:
+The subject of one of my exam. I had 3 hours to develop some shellscripts to recover databytes in a virtually broken disk. I've removed the disk data
+in BLOCKS File for saving some space. Not much to say expect I was quite found of this one, not because it was part of the reason I got first rank during
+my major :). Not the finnest code I ever did, but hey, I only got 3 hours for this.

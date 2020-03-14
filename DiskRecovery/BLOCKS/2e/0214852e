@@ -1,0 +1,68 @@
+/span> Home</a></li>
+<li><a href="/faq.php"><span class="icon-question"></span> FAQ</a></li>
+<li><a href="/tunes.php"><span class="icon-notes"></span> Browse Tunes</a></li>
+<li><a href="/categories.php?id=64"><span class="icon-holly"></span> Christmas Music</a></li>
+<li><a href="/random.php" rel="nofollow"><span class="icon-switch"></span> Random Tune</a></li>
+<li><a href="/reviews.php"><span class="icon-gift"></span> Modern Music</a></li>
+<li><a href="/charts.php"><span class="icon-charts"></span> Most Popular</a></li>
+<li><a href="/articles/"><span class="icon-articles"></span> Flute Articles</a></li>
+<li><a href="/scales/"><span class="icon-keyboard"></span> Flute Scales</a></li>
+<li><a href="/fingerings/"><span class="icon-hand"></span> Flute Fingerings</a></li>
+<li><a href="/metronome/"><span class="icon-metronome"></span> Metronome</a></li>
+<li><a href="/tuner/"><span class="icon-microphone"></span> Tuner</a></li>
+<li><a href="/glossary.php"><span class="icon-book-open"></span> Music Glossary</a></li>
+<li><a href="/blank/"><span class="icon-printer"></span> Staff Paper</a></li>
+<li><a href="/links.php"><span class="icon-world"></span> Flute Links</a></li>
+<li><a href="/contact.php"><span class="icon-email"></span> Contact</a></li>
+</ul>
+</div>
+<div class="sidead"><script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle adslot_ss"
+     style="display:block"
+     data-ad-client="ca-pub-0413812193020545"
+     data-ad-slot="2628236508"
+     data-ad-format="vertical"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div id="featured">
+<h2>Featured Tune</h2>
+<span class="player"><a class="audioplay audio-medium-text" href="https://www.flutetunes.com/tunes/bach-little-fugue-in-g-minor.mp3"></a></span>
+<div class="title">Little Fugue in G minor</div>
+<div class="composer">J.S. Bach</div>
+<div class="links">
+<a href="/tunes/bach-little-fugue-in-g-minor.pdf" rel="external nofollow">Sheet Music</a> · <a href="/tunes.php?id=172">Details</a>
+</div>
+</div><div class="sidebox"><h2>Like flutetunes.com?</h2><div class="body">Follow us on <a href="http://www.twitter.com/flutetunes" rel="nofollow external">Twitter</a>!</div></div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+document.getElementById('menutoggle').onclick = function() {
+    var div = document.getElementById('mainmenu');
+    if (div.style.display !== 'block') {
+        div.style.display = 'block';
+    } else {
+        div.style.display = 'none';
+    }
+};
+//]]>
+</script>
+<div id="mainside">
+
+<div id="content" typeof="schema:MusicComposition">
+<div class="tuneheadad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle adslot_ba"
+     data-ad-client="ca-pub-0413812193020545"
+     data-ad-slot="9864981706"
+     data-ad-format="horizontal"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<h2>Sheet Music: <em>Old-Time Religion</em></h2>
+<div style="margin-bottom:.5em;">
+<table class="tune">
+<tr><th>Title</th><td colspan="2"><span property="schema:name">Old-Time Religion</span></td><td colspan="2" rowspan="4" class="right"><a class="audioplay audio-large" href="https://www.flutetunes.com/tunes/old-time-religion.mp3"></a></td></tr>
+<tr><th>Alternate titles</th><td colspan="2"><span property="schema:alternateName">Give Me That Old-Time Religion</span></td></tr>
+<tr><th>Composer</th><td colspan="2" property="schema:composer" typeof="schema:Person"><a href="/composers.php?id=1" property="schema:url"><span property="schema:name">Traditional</span></a></td></tr>
+<tr><td colspan="3"></td></tr>
+<tr><th style="padding-top: 1em;">Instrumentation</th><td style="padding-top: 1em;">Flute solo</td><td style="padding-top: 1em;" colspan="3" rowspan="7" class="nowrap right"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAABwCAAAAAAspZ9UAAAACXZwQWcAAAM7AAAEkQAl1EN9AAAB7UlEQVRIx+2VL27DMBTGPzg4s41VRoPTTMZGDCaVlEQqHJiiwQ0ZjUc9wKTgspAewFfIFXIFXyF7z24aO7On4SkPuJV/sv2+9y8YfzWseMUrXvGK/yO23W+4Bbo

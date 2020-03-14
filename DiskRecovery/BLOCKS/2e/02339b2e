@@ -1,0 +1,111 @@
+/**
+	* The default constructor of QueryExpansion.
+	*/
+	public QueryExpansion() {}
+	/** Set the used query expansion model.
+	*  @param _QEModel QueryExpansionModel The query expansion model to be used.
+	*/
+	public void setQueryExpansionModel(QueryExpansionModel _QEModel){
+		this.QEModel = _QEModel;
+	}
+	/**
+ 	* This method implements the functionality of expanding a query.
+ 	* @param query MatchingQueryTerms the query terms of 
+ 	*		the original query.
+ 	* @param rq the Request thus far, giving access to the query and the result set
+ 	*/
+	public void expandQuery(MatchingQueryTerms query, Request rq) throws IOException 
+	{
+		// the number of term to re-weight (i.e. to do relevance feedback) is
+		// the maximum between the system setting and the actual query length.
+		// if the query length is larger than the system setting, it does not
+		// make sense to do relevance feedback for a portion of the query. Therefore, 
+		// we re-weight the number of query length of terms.
+		int numberOfTermsToReweight = Math.max(ApplicationSetup.EXPANSION_TERMS, 
+				query.length());
+		if (ApplicationSetup.EXPANSION_TERMS == 0)
+			numberOfTermsToReweight = 0;
+
+		if (selector == null)
+			selector = this.getFeedbackSelector(rq);
+		if (selector == null)
+			return;
+		FeedbackDocument[] feedback = selector.getFeedbackDocuments(rq);
+		if (feedback == null || feedback.length == 0)
+			return;
+	
+		//double totalDocumentLength = 0;
+		//for(FeedbackDocument doc : feedback)
+		//{
+			//totalDocumentLength += documentIndex.getDocumentLength(doc.docid);
+
+		//	if(logger.isDebugEnabled()){
+		//		logger.debug(doc.rank +": " + metaIndex.getItem("docno", doc.docid)+
+		//			" ("+doc.docid+") with "+doc.score);
+		//	}
+		//}
+		ExpansionTerms expansionTerms = getExpansionTerms();
+		expansionTerms.setModel(QEModel);
+		
+		for(FeedbackDocument doc : feedback)
+		{
+			expansionTerms.insertDocument(doc);
+		}
+		logger.debug("Selecting "+numberOfTermsToReweight + " from " + expansionTerms.getNumberOfUniqueTerms());
+		
+		expansionTerms.setOriginalQueryTerms(query);
+		SingleTermQuery[] expandedTerms = expansionTerms.getExpandedTerms(numberOfTermsToReweight);
+		for (int i = 0; i < expandedTerms.length; i++){
+			SingleTermQuery expandedTerm = expandedTerms[i];
+			query.addTermPropertyWeight(expandedTerm.getTerm(), expandedTerm.getWeight());
+			if(logger.isDebugEnabled()){
+				logger.debug("term " + expandedTerms[i].getTerm()
+				 	+ " appears in expanded query with normalised weight: "
+					+ Rounding.toString(query.getTermWeight(expandedTerms[i].getTerm()), 4));
+			}
+		}
+			
+
+	}
+
+	/** For easier sub-classing of which index the query expansion comes from */
+	protected Index getIndex(Manager m)
+	{
+		return m.getIndex();
+	}
+	
+	/** load the expansion terms, as per the property <tt>qe.expansion.terms.class</tt>. Defaults to DFRBagExpansionTerms.
+	 * @return an ExpansionTerms instance, which may or may not wrap other ExpansionTerms instances
+	 */
+	protected ExpansionTerms getExpansionTerms()
+	{
+		String expanderNames[] = ApplicationSetup.getProperty("qe.expansion.terms.class", "DFRBagExpansionTerms").split("\\s*,\\s*");
+		ExpansionTerms rtr = null;
+		
+		//foreach name, starting from the last, finishing with the first
+		
+		for(int i=expanderNames.length -1;i>=0;i--)
+		{
+			String expanderName = expanderNames[i];
+			ExpansionTerms next = null;
+			if (! expanderName.contains("."))
+				expanderName = "org.terrier.querying."+expanderName;
+			else if (expanderName.startsWith("uk.ac.gla.terrier"))
+				expanderName = expanderName.replaceAll("uk.ac.gla.terrier", "org.terrier");
+			
+			try{
+				Class<? extends ExpansionTerms> clz = Class.forName(expanderName).asSubclass(ExpansionTerms.class);
+				if (expanderNames.length -1 == i)
+				{
+					next = clz
+						.getConstructor(CollectionStatistics.class, Lexicon.class, PostingIndex.class, DocumentIndex.class)
+						.newInstance(collStats,lexicon, directIndex, documentIndex);
+				}
+				else
+				{
+					next = clz.getConstructor(ExpansionTerms.class).newInstance(rtr);
+				}
+				rtr = next;
+			}
+			catch (Exception e) {
+				logger.error("Errory during

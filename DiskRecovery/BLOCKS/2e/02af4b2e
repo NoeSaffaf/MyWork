@@ -1,0 +1,56 @@
+Position.html#FilePosition-org.terrier.structures.BitFilePosition-">FilePosition</a></span>(<a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a>&nbsp;in)</code>
+<div class="block">Create a new FilePosition based on an existing one</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.structures.bit">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a> in <a href="../../../../org/terrier/structures/bit/package-summary.html">org.terrier.structures.bit</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../org/terrier/structures/bit/package-summary.html">org.terrier.structures.bit</a> that return <a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a></code></td>
+<td class="colLast"><span class="typeNameLabel">DirectInvertedOutputStream.</span><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/bit/DirectInvertedOutputStream.html#getOffset--">getOffset</a></span>()</code>
+<div class="block">What is current offset?</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a></code></td>
+<td class="colLast"><span class="typeNameLabel">BitPostingIndexInputStream.</span><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/bit/BitPostingIndexInputStream.html#getPos--">getPos</a></span>()</code>
+<div class="block">Get the file position</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.structures.indexing.singlepass">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a> in <a href="../../../../org/terrier/structures/indexing/singlepass/package-summary.html">org.terrier.structures.indexing.singlepass</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing fields, and an explanation">
+<caption><span>Fields in <a href="../../../../org/terrier/structures/indexing/singlepass/package-summary.html">org.terrier.structures.indexing.singlepass</a> declared as <a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>protected <a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a></code></td>
+<td class="colLast"><span class="typeNameLabel">RunsMerger.</span><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/indexing/singlepass/RunsMerger.html#startOffset">startOffset</a></span></code>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.structures.integer">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../org/terrier/structures/BitFilePosition.html" title="interface in org.terrier.structures">BitFilePosition</a> in <a href="../../../../org/terrier/structures/integer/package-summary.html">org.terrier.structures.integer</a></h3>
+<table class="useSummary" border="0" cellpaddi

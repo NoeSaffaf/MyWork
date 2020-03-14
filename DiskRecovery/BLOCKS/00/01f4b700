@@ -1,0 +1,35 @@
+r/TerrierLexer.html#mALPHANUMERIC-boolean-">mALPHANUMERIC(boolean)</a></span> - Method in class org.terrier.querying.parser.<a href="org/terrier/querying/parser/TerrierLexer.html" title="class in org.terrier.querying.parser">TerrierLexer</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/querying/parser/TerrierLexer.html#mALPHANUMERIC_CHAR-boolean-">mALPHANUMERIC_CHAR(boolean)</a></span> - Method in class org.terrier.querying.parser.<a href="org/terrier/querying/parser/TerrierLexer.html" title="class in org.terrier.querying.parser">TerrierLexer</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="org/terrier/querying/Manager.html" title="class in org.terrier.querying"><span class="typeNameLink">Manager</span></a> - Class in <a href="org/terrier/querying/package-summary.html">org.terrier.querying</a></dt>
+<dd>
+<div class="block">This class is responsible for handling/co-ordinating the main high-level
+ operations of a query.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/querying/Manager.html#Manager--">Manager()</a></span> - Constructor for class org.terrier.querying.<a href="org/terrier/querying/Manager.html" title="class in org.terrier.querying">Manager</a></dt>
+<dd>
+<div class="block">Default constructor.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/querying/Manager.html#Manager-org.terrier.structures.Index-">Manager(Index)</a></span> - Constructor for class org.terrier.querying.<a href="org/terrier/querying/Manager.html" title="class in org.terrier.querying">Manager</a></dt>
+<dd>
+<div class="block">Construct a Manager using the specified Index
+ Throws IllegalArgumentException if the specified index is null</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/applications/batchquerying/TRECQuerying.html#managerName">managerName</a></span> - Variable in class org.terrier.applications.batchquerying.<a href="org/terrier/applications/batchquerying/TRECQuerying.html" title="class in org.terrier.applications.batchquerying">TRECQuerying</a></dt>
+<dd>
+<div class="block">The name of the manager object that handles the queries.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/applications/InteractiveQuerying.html#managerName">managerName</a></span> - Variable in class org.terrier.applications.<a href="org/terrier/applications/InteractiveQuerying.html" title="class in org.terrier.applications">InteractiveQuerying</a></dt>
+<dd>
+<div class="block">The name of the manager object that handles the queries.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/indexing/singlepass/hadoop/Hadoop_BasicSinglePassIndexer.html#map-org.apache.hadoop.io.Text-org.terrier.structures.indexing.singlepass.hadoop.SplitAwareWrapper-org.apache.hadoop.mapred.OutputCollector-org.apache.hadoop.mapred.Reporter-">map(Text, SplitAwareWrapper&lt;Document&gt;, OutputCollector&lt;SplitEmittedTerm, MapEmittedPostingList&gt;, Reporter)</a></span> - Method in class org.terrier.structures.indexing.singlepass.hadoop.<a href="org/terrier/structures/indexing/singlepass/hadoop/Hadoop_BasicSinglePassIndexer.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">Hadoop_BasicSinglePassIndexer</a></dt>
+<dd>
+<div class="block">Map processes a single document.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/indexing/singlepass/hadoop/Inv2DirectMultiReduce.html#map-org.apache.hadoop.io.IntWritable-org.terrier.utility.Wrapper-org.apache.hadoop.mapred.OutputCollector-org.apache.hadoop.mapred.Reporter-">map(IntWritable, Wrapper&lt;IterablePosting&gt;, OutputCollector&lt;VIntWritable, Posting&gt;, Reporter)</a></span> - Method in class org.terrier.structures.indexing.singlepass.hadoop.<a href="org/terrier/structures/indexing/singlepass/hadoop/Inv2DirectMultiReduce.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">Inv2DirectMultiReduce</a></dt>
+<dd>
+<div class="block">Take an iterator of postings.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/indexing/singlepass/hadoop/MapEmit

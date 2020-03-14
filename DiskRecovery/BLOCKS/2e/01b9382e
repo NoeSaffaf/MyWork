@@ -1,0 +1,110 @@
+/*
+ * Terrier - Terabyte Retriever 
+ * Webpage: http://terrier.org 
+ * Contact: terrier{a.}dcs.gla.ac.uk
+ * University of Glasgow - School of Computing Science
+ * http://www.gla.ac.uk/
+ * 
+ * The contents of this file are subject to the Mozilla Public License
+ * Version 1.1 (the "License"); you may not use this file except in
+ * compliance with the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS"
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is TestLinearModelMatching.java.
+ *
+ * The Original Code is Copyright (C) 2004-2015 the University of Glasgow.
+ * All Rights Reserved.
+ *
+ * Contributor(s):
+ *   Craig Macdonald <craig.macdonald@glasgow.ac.uk>
+ */
+
+
+package org.terrier.fat;
+
+import static org.junit.Assert.assertEquals;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.TemporaryFolder;
+import org.terrier.learning.FeaturedQueryResultSet;
+import org.terrier.learning.FeaturedResultSet;
+import org.terrier.matching.LearnedModelMatching;
+import org.terrier.matching.LinearModelMatching;
+import org.terrier.matching.Matching;
+import org.terrier.matching.MatchingQueryTerms;
+import org.terrier.matching.QueryResultSet;
+import org.terrier.matching.ResultSet;
+import org.terrier.structures.CollectionStatistics;
+import org.terrier.utility.ApplicationSetup;
+
+public class TestLinearModelMatching {
+
+	@Rule
+	public TemporaryFolder testFolder = new TemporaryFolder();
+	
+	LearnedModelMatching makeMatching(Matching mock, double[] weights) throws Exception
+	{
+		return new LinearModelMatching(null, mock, weights);
+	}
+	
+	@Test public void testEmpty() throws Exception
+	{
+		assertEquals(0, makeMatching(new MockMatching(), new double[]{4,3,2}).match("empty", null).getResultSize());
+	}
+	
+	@Test public void testOneDocumentTwoFeatures() throws Exception
+	{
+		Map<String,ResultSet> results = new HashMap<String,ResultSet>();
+		FeaturedResultSet rs = new FeaturedQueryResultSet(1);
+		rs.getDocids()[0] = 10;
+		rs.getScores()[0] = 2;
+		rs.putFeatureScores("DPH", new double[]{0.5});
+		rs.putFeatureScores("PageRank", new double[]{0.25});		
+		results.put("query1", rs);
+		
+		ApplicationSetup.setProperty("fat.matching.model.score_is_feature", "true");
+		ApplicationSetup.setProperty("fat.matching.model.normalise", "false");
+		ResultSet rtr = makeMatching(new MockMatching(results), new double[]{2,1,0}).match("query1", null);
+		//docid 10: 2*2 + 1*0.5 + 0 * 0.25 = 4.5
+		
+		assertEquals(1, rtr.getResultSize());
+		System.err.println("docids="+ java.util.Arrays.toString(rtr.getDocids()));
+		System.err.println("scores="+ java.util.Arrays.toString(rtr.getScores()));
+		assertEquals(10, rtr.getDocids()[0]);
+		assertEquals(4.5d, rtr.getScores()[0], 0.0d);	
+	}
+	
+	@Test public void testOneDocumentThreeFeaturesLastUnused() throws Exception
+	{
+		Map<String,ResultSet> results = new HashMap<String,ResultSet>();
+		FeaturedResultSet rs = new FeaturedQueryResultSet(1);
+		rs.getDocids()[0] = 10;
+		rs.getScores()[0] = 2;
+		rs.putFeatureScores("DPH", new double[]{0.5});
+		rs.putFeatureScores("PageRank", new double[]{0.25});
+		rs.putFeatureScores("URLLength", new double[]{5});	
+		results.put("query1", rs);
+		
+		ApplicationSetup.setProperty("fat.matching.model.score_is_feature", "true");
+		ApplicationSetup.setProperty("fat.matching.model.normalise", "false");
+		ResultSet rtr = makeMatching(new MockMatching(results), new double[]{2,1,0}).match("query1", null);
+		//docid 10: 2*2 + 1*0.5 + 0 * 0.25 = 4.5
+		
+		assertEquals(1, rtr.getResultSize());
+		System.err.println("docids="+ java.util.Arrays.toString(rtr.getDocids()));
+		System.err.println("scores="+ java.util.Arrays.toString(rtr.getScores()));
+		assertEquals(10, rtr.getDocids()[0]);
+		assertEquals(4.5d, rtr.getScores()[0], 0.

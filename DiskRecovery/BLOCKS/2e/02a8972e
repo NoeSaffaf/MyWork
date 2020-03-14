@@ -1,0 +1,87 @@
+rier/utility/ArrayUtils.html#GOLDEN_RATIO">GOLDEN_RATIO</a></code></td>
+<td class="colLast"><code>1.618</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.terrier.utility.<a href="org/terrier/utility/Files.FSCapability.html" title="interface in org.terrier.utility">Files.FSCapability</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.terrier.utility.Files.FSCapability.DEL_ON_EXIT">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;byte</code></td>
+<td><code><a href="org/terrier/utility/Files.FSCapability.html#DEL_ON_EXIT">DEL_ON_EXIT</a></code></td>
+<td class="colLast"><code>64</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.terrier.utility.Files.FSCapability.LS_DIR">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;byte</code></td>
+<td><code><a href="org/terrier/utility/Files.FSCapability.html#LS_DIR">LS_DIR</a></code></td>
+<td class="colLast"><code>16</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.terrier.utility.Files.FSCapability.RANDOM_READ">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;byte</code></td>
+<td><code><a href="org/terrier/utility/Files.FSCapability.html#RANDOM_READ">RANDOM_READ</a></code></td>
+<td class="colLast"><code>4</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.terrier.utility.Files.FSCapability.RANDOM_WRITE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;byte</code></td>
+<td><code><a href="org/terrier/utility/Files.FSCapability.html#RANDOM_WRITE">RANDOM_WRITE</a></code></td>
+<td class="colLast"><code>8</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.terrier.utility.Files.FSCapability.READ">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;byte</code></td>
+<td><code><a href="org/terrier/utility/Files.FSCapability.html#READ">READ</a></code></td>
+<td class="colLast"><code>1</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.terrier.utility.Files.FSCapability.STAT">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;byte</code></td>
+<td><code><a href="org/terrier/utility/Files.FSCapability.html#STAT">STAT</a></code></td>
+<td class="colLast"><code>32</code></td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><a name="org.terrier.utility.Files.FSCapability.WRITE">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;byte</code></td>
+<td><code><a href="org/terrier/utility/Files.FSCapability.html#WRITE">WRITE</a></code></td>
+<td class="colLast"><code>2</code></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<table class="constantsSummary" border="0" cellpadding="3" cellspacing="0" summary="Constant Field Values table, listing constant fields, and values">
+<caption><span>org.terrier.utility.<a href="org/terrier/utility/TagSet.html" title="class in org.terrier.utility">TagSet</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th scope="col">Constant Field</th>
+<th class="colLast" scope="col">Value</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><a name="org.terrier.utility.TagSet.EMPTY_TAGS">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td><code><a href="org/terrier/utility/TagSet.html#EMPTY_TAGS">EMPTY_TAGS</a></code></td>
+<td class="colLast"><code>""</code></td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a name="org.terrier.utility.TagSet.FIELD_TAGS">
+<!--   -->
+</a><code>public&nbsp;static&nbsp;final&nbsp;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-ex

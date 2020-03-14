@@ -1,0 +1,57 @@
+->
+</a>
+<h3>Uses of <a href="../../../../../org/terrier/structures/postings/BasicPostingImpl.html" title="class in org.terrier.structures.postings">BasicPostingImpl</a> in <a href="../../../../../org/terrier/structures/postings/package-summary.html">org.terrier.structures.postings</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing subclasses, and an explanation">
+<caption><span>Subclasses of <a href="../../../../../org/terrier/structures/postings/BasicPostingImpl.html" title="class in org.terrier.structures.postings">BasicPostingImpl</a> in <a href="../../../../../org/terrier/structures/postings/package-summary.html">org.terrier.structures.postings</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Class and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/postings/BlockFieldPostingImpl.html" title="class in org.terrier.structures.postings">BlockFieldPostingImpl</a></span></code>
+<div class="block">A writable block field posting list</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/postings/BlockPostingImpl.html" title="class in org.terrier.structures.postings">BlockPostingImpl</a></span></code>
+<div class="block">BlockPostingImpl class</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/postings/FieldPostingImpl.html" title="class in org.terrier.structures.postings">FieldPostingImpl</a></span></code>
+<div class="block">Implementation of a posting containing fields</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.structures.postings.bit">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/terrier/structures/postings/BasicPostingImpl.html" title="class in org.terrier.structures.postings">BasicPostingImpl</a> in <a href="../../../../../org/terrier/structures/postings/bit/package-summary.html">org.terrier.structures.postings.bit</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing subclasses, and an explanation">
+<caption><span>Subclasses of <a href="../../../../../org/terrier/structures/postings/BasicPostingImpl.html" title="class in org.terrier.structures.postings">BasicPostingImpl</a> in <a href="../../../../../org/terrier/structures/postings/bit/package-summary.html">org.terrier.structures.postings.bit</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Class and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/postings/bit/BasicIterablePosting.html" title="class in org.terrier.structures.postings.bit">BasicIterablePosting</a></span></code>
+<div class="block">Basic inverted and direct index format: [gamma(first docid +1) unary (frequency)], [gamma(delta docid) unary(frequency)]</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/postings/bit/BasicIterablePostingDocidOnly.html" title="class in org.terrier.structures.postings.bit">BasicIterablePostingDocidOnly</a></span></code>
+<div class="block">Posting iterator class that only returns identifiers, not frequencies.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/posti

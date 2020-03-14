@@ -1,0 +1,42 @@
+,
+   <a href="../../../../../org/terrier/utility/Wrapper.html" title="class in org.terrier.utility">Wrapper</a>&lt;<a href="../../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a>&gt;&nbsp;postingWrapper,
+   org.apache.hadoop.mapred.OutputCollector&lt;org.apache.hadoop.io.VIntWritable,<a href="../../../../../org/terrier/structures/postings/Posting.html" title="interface in org.terrier.structures.postings">Posting</a>&gt;&nbsp;collector,
+   org.apache.hadoop.mapred.Reporter&nbsp;reporter)</code>
+<div class="block">Take an iterator of postings.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.structures.integer">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a> in <a href="../../../../../org/terrier/structures/integer/package-summary.html">org.terrier.structures.integer</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing methods, and an explanation">
+<caption><span>Methods in <a href="../../../../../org/terrier/structures/integer/package-summary.html">org.terrier.structures.integer</a> that return <a href="../../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a></code></td>
+<td class="colLast"><span class="typeNameLabel">IntegerCodingPostingIndexInputStream.</span><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/integer/IntegerCodingPostingIndexInputStream.html#getNextPostings--">getNextPostings</a></span>()</code>
+<div class="block">Return the next IterablePosting object, or null if none defined.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a></code></td>
+<td class="colLast"><span class="typeNameLabel">IntegerCodingPostingIndex.</span><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/integer/IntegerCodingPostingIndex.html#getPostings-org.terrier.structures.Pointer-">getPostings</a></span>(<a href="../../../../../org/terrier/structures/Pointer.html" title="interface in org.terrier.structures">Pointer</a>&nbsp;_pointer)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected <a href="../../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a></code></td>
+<td class="colLast"><span class="typeNameLabel">IntegerCodingPostingIndexInputStream.</span><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/integer/IntegerCodingPostingIndexInputStream.html#loadPostingIterator-org.terrier.structures.BitIndexPointer-">loadPostingIterator</a></span>(<a href="../../../../../org/terrier/structures/BitIndexPointer.html" title="interface in org.terrier.structures">BitIndexPointer</a>&nbsp;pointer)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/terrier/structures/postings/IterablePosting.html" title="interface in org.terrier.structures.postings">IterablePosting</a></code></td>
+<td class="colLast"><span class="typeNameLabel">IntegerCodingPostingIndexInputStream.</span><code><span class="memberNameLink"><a href="../../../../../org/terrier/structures/integer/IntegerCodingPostingIndexInputStream.html#next--">next</a></span>()</code></td>
+</tr>
+</tbody>
+</table>
+<tab

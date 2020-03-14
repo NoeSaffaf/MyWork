@@ -1,0 +1,72 @@
+&nbsp;topElements)</code>
+<div class="block">ascendingHeapSort</div>
+</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/sorting/MultiSort.html#descendingHeapSort-double:A-int:A-short:A-">descendingHeapSort</a></span>(double[]&nbsp;A,
+                  int[]&nbsp;B,
+                  short[]&nbsp;C)</code>
+<div class="block">Sorts the given arrays in descending order, using heap-sort.</div>
+</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../org/terrier/sorting/MultiSort.html#descendingHeapSort-double:A-int:A-short:A-int-">descendingHeapSort</a></span>(double[]&nbsp;A,
+                  int[]&nbsp;B,
+                  short[]&nbsp;C,
+                  int&nbsp;topElements)</code>
+<div class="block">Sorts the top <tt>topElements</tt> of the given array in
+ descending order, using heap sort for sorting the values
+ in ascending order and then reversing the order of a
+ specified number of elements.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#clone--" title="class or interface in java.lang">clone</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#equals-java.lang.Object-" title="class or interface in java.lang">equals</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#finalize--" title="class or interface in java.lang">finalize</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#getClass--" title="class or interface in java.lang">getClass</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#hashCode--" title="class or interface in java.lang">hashCode</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#notify--" title="class or interface in java.lang">notify</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#notifyAll--" title="class or interface in java.lang">notifyAll</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#toString--" title="class or interface in java.lang">toString</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#wait--" title="class or interface in java.lang">wait</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#wait-long-" title="class or interface in java.lang">wait</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#wait-long-int-" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="MultiSort--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>MultiSort</h4>
+<pre>public&nbsp;MultiSort()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="ascendingHeapSort-double:A-int:A-short:A-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>ascendingHeapSort</h4>
+<pre>public static final&nbsp;void&nbsp;ascendingHeapSort(double[]&nbsp;A,
+                                           int[]&nbsp;B,
+                           

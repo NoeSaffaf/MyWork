@@ -1,0 +1,50 @@
+s="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../org/terrier/matching/models/normalisation/Normalisation2exp.html#Normalisation2exp--">Normalisation2exp</a></span>()</code>
+<div class="block">The default constructor.</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code><a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/matching/models/normalisation/Normalisation2exp.html#getInfo--">getInfo</a></span>()</code>
+<div class="block">Get the name of the normalisation method.</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>double</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../org/terrier/matching/models/normalisation/Normalisation2exp.html#normalise-double-double-double-">normalise</a></span>(double&nbsp;tf,
+         double&nbsp;docLength,
+         double&nbsp;termFrequency)</code>
+<div class="block">This method gets the normalised term frequency.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.org.terrier.matching.models.normalisation.Normalisation">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;org.terrier.matching.models.normalisation.<a href="../../../../../org/terrier/matching/models/normalisation/Normalisation.html" title="class in org.terrier.matching.models.normalisation">Normalisation</a></h3>
+<code><a href="../../../../../org/terrier/matching/models/normalisation/Normalisation.html#clone--">clone</a>, <a href="../../../../../org/terrier/matching/models/normalisation/Normalisation.html#getParameter--">getParameter</a>, <a href="../../../../../org/terrier/matching/models/normalisation/Normalisation.html#setAverageDocumentLength-double-">setAverageDocumentLength</a>, <a href="../../../../../org/terrier/matching/models/normalisation/Normalisation.html#setDocumentFrequency-double-">setDocumentFrequency</a>, <a href="../../../../../org/terrier/matching/models/normalisation/Normalisation.html#setNumberOfDocuments-double-">setNumberOfDocuments</a>, <a href="../../../../../org/terrier/matching/models/normalisation/Normalisation.html#setNumberOfTokens-double-">setNumberOfTokens</a>, <a href="../../../../../org/terrier/matching/models/normalisation/Normalisation.html#setParameter-double-">setParameter</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#equals-java.lang.Object-" title="class or interface in java.lang">equals</a>, <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true#finalize--" title="class or interface in java.lang">finalize<

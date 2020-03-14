@@ -1,0 +1,54 @@
+problem Phase_Field {
+	max_time_steps 20000
+	;max_time 100
+	dt 0.5
+	save_every_x_steps 400
+}
+
+threading {
+    fftw 2
+    voxels 2
+    unknowns 2
+}
+
+geometry r_file {
+    file "geometry.json"
+}
+
+voxels {
+    type {
+	Phase_Field "ALL"
+    }
+    FFT_derivatives Phase_Field {
+	G basic
+    }
+    vsets_properties {
+        ALL dummy
+    }
+}
+
+behaviors {
+    cahn_hilliard {
+	vsets "ALL"
+    }
+}
+
+material_properties {
+    dummy cahn_hillard {
+	zeta 0.05
+	lambda 5
+	gamma 1
+    }
+}
+
+initial_conditions  {
+    defined_by_vtr_file "noise.vtr"  {
+	phi c ; phi of cahn hilliard receive c from input file
+    }
+}
+
+output {
+    vtr {
+	variables "phi"
+    }
+}

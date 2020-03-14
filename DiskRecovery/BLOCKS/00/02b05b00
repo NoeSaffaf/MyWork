@@ -1,0 +1,65 @@
+class="colLast">
+<div class="block">Provides functionality for creating on-disk indices via indexer classes.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><a href="#org.terrier.structures.integer">org.terrier.structures.integer</a></td>
+<td class="colLast">
+<div class="block">Provides generic posting index classes that support byte-level compression.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList">
+<ul class="blockList">
+<li class="blockList"><a name="org.terrier.structures.bit">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../org/terrier/structures/AbstractPostingOutputStream.html" title="class in org.terrier.structures">AbstractPostingOutputStream</a> in <a href="../../../../org/terrier/structures/bit/package-summary.html">org.terrier.structures.bit</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing subclasses, and an explanation">
+<caption><span>Subclasses of <a href="../../../../org/terrier/structures/AbstractPostingOutputStream.html" title="class in org.terrier.structures">AbstractPostingOutputStream</a> in <a href="../../../../org/terrier/structures/bit/package-summary.html">org.terrier.structures.bit</a></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Class and Description</th>
+</tr>
+<tbody>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/bit/BlockDirectInvertedOutputStream.html" title="class in org.terrier.structures.bit">BlockDirectInvertedOutputStream</a></span></code>
+<div class="block">Writes a block direct or block inverted index, when passed appropriate posting lists.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/bit/BlockFieldDirectInvertedOutputStream.html" title="class in org.terrier.structures.bit">BlockFieldDirectInvertedOutputStream</a></span></code>
+<div class="block">Writes out a blocks and fields direct index to an output stream</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/bit/DirectInvertedDocidOnlyOuptutStream.html" title="class in org.terrier.structures.bit">DirectInvertedDocidOnlyOuptutStream</a></span></code>
+<div class="block">A BitPosting writing class that doesn't write any frequency information</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/bit/DirectInvertedOutputStream.html" title="class in org.terrier.structures.bit">DirectInvertedOutputStream</a></span></code>
+<div class="block">Writes a block direct or block inverted index, when passed appropriate posting lists.</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>class&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/bit/FieldDirectInvertedOutputStream.html" title="class in org.terrier.structures.bit">FieldDirectInvertedOutputStream</a></span></code>
+<div class="block">Bit out class for writing a posting list with fields</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="blockList"><a name="org.terrier.structures.indexing">
+<!--   -->
+</a>
+<h3>Uses of <a href="../../../../org/terrier/structures/AbstractPostingOutputStream.html" title="class in org.terrier.structures">AbstractPostingOutputStream</a> in <a href="../../../../org/terrier/structures/indexing/package-summary.html">org.terrier.structures.indexing</a></h3>
+<table class="useSummary" border="0" cellpadding="3" cellspacing="0" summary="Use table, listing fields, and an explanation">
+<caption><span>Fields in <a href="../../../../org/terrier/structures/indexing/package-sum

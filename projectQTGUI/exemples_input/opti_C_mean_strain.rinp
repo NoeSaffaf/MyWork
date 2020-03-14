@@ -1,0 +1,87 @@
+problem Mechanical_Linear_PolyOpti_C {
+    tolerance_delta_epsilon 1.e-4
+    tolerance_equilibrium 1.e-4
+    reference_stiffness {
+	sym cubic {
+	    C11 16840.
+	    C12 12140.
+	    C44 7539.
+	}
+    }
+    opti {
+	objective_function "strain_mean_per_grain"
+	max_iter 100
+	save_step_inc 40
+    }
+    reference vtk {
+	file "reference_poly_0.vtr"
+    }
+
+}
+
+algorithm LS_base
+
+;solver CG {
+solver biCGstab {
+    max_iter 30
+    tolerance_residual 1.e-4
+    initial_solution_vector 1
+}
+
+zeromq {
+    socket "ipc:///tmp/zmq_neper"
+}
+
+threading {
+    fftw 2
+    voxels 2
+    unknowns 2
+}
+
+geometry tesr_file {
+    file "reference.tesr"
+    ori "reference.ori"
+}
+
+
+material_properties {
+    copper elasticity {
+	stiffness { ; anyway provided by neper, so this is dummy here
+	    sym cubic
+	    C11 168400.
+	    C12 121400.
+	    C44 75390.
+	}
+    }
+}
+
+voxels {
+    type {
+	Mechanical "ALL"
+    }
+    FFT_derivatives Mechanical {
+	Gamma rotated
+	Equilibrium rotated
+    }
+    vsets_properties {
+	EACH copper {
+	    rotation ori_euler
+	}
+    }
+}
+
+behaviors {
+    elasticity {
+	vsets "range 1 20"
+    }
+}
+
+applied_conditions mechanical_linear {
+    E "-0.003 0 0 -0.003 0 0.01"
+}
+
+output {
+    vtr {
+	variables "strain_total stress"
+    }
+}

@@ -1,0 +1,61 @@
+nstructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier</th>
+<th class="colLast" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/indexing/Indexer.html#Indexer--">Indexer</a></span>()</code>
+<div class="block">Creates an indexer at the location ApplicationSetup.TERRIER_INDEX_PATH and
+ ApplicationSetup.TERRIER_INDEX_PREFIX</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected </code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/indexing/Indexer.html#Indexer-long-long-long-">Indexer</a></span>(long&nbsp;a,
+       long&nbsp;b,
+       long&nbsp;c)</code>
+<div class="block">Protected do-nothing constructor for use by child classes</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>&nbsp;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/indexing/Indexer.html#Indexer-java.lang.String-java.lang.String-">Indexer</a></span>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;_path,
+       <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;_prefix)</code>
+<div class="block">Creates an instance of the class.</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span id="t1" class="tableTab"><span><a href="javascript:show(1);">Static Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t3" class="tableTab"><span><a href="javascript:show(4);">Abstract Methods</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code>abstract void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/indexing/Indexer.html#createDirectIndex-org.terrier.indexing.Collection:A-">createDirectIndex</a></span>(<a href="../../../../org/terrier/indexing/Collection.html" title="interface in org.terrier.indexing">Collection</a>[]&nbsp;collections)</code>
+<div class="block">An abstract method for creating the direct index, the document index
+ and the lexicon for the given collections.</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>abstract void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/structures/indexing/Indexer.html#createInvertedIndex--">createInvertedIndex</a></span>()</code>
+<div class="block">An abstract method for creating the inverted index, given that the
+ the direct index, the document index and the lexicon have
+ already been created.</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>protected <a href="../../../../org/terrier/structures/indexing/MetaIndexBuilder.html" title="class in org.terrier.structures.indexing">MetaIndexBuilder</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/

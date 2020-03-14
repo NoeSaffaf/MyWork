@@ -1,0 +1,34 @@
+singlepass.hadoop">SplitEmittedTerm</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/indexing/singlepass/hadoop/MapData.html#getSplitnum--">getSplitnum()</a></span> - Method in class org.terrier.structures.indexing.singlepass.hadoop.<a href="org/terrier/structures/indexing/singlepass/hadoop/MapData.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">MapData</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/CompressingMetaIndex.CompressingMetaIndexInputFormat.html#getSplits-org.apache.hadoop.mapred.JobConf-int-">getSplits(JobConf, int)</a></span> - Method in class org.terrier.structures.<a href="org/terrier/structures/CompressingMetaIndex.CompressingMetaIndexInputFormat.html" title="class in org.terrier.structures">CompressingMetaIndex.CompressingMetaIndexInputFormat</a></dt>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/indexing/singlepass/hadoop/BitPostingIndexInputFormat.html#getSplits-org.apache.hadoop.mapred.JobConf-int-">getSplits(JobConf, int)</a></span> - Method in class org.terrier.structures.indexing.singlepass.hadoop.<a href="org/terrier/structures/indexing/singlepass/hadoop/BitPostingIndexInputFormat.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">BitPostingIndexInputFormat</a></dt>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/indexing/singlepass/hadoop/MultiFileCollectionInputFormat.html#getSplits-org.apache.hadoop.mapred.JobConf-int-">getSplits(JobConf, int)</a></span> - Method in class org.terrier.structures.indexing.singlepass.hadoop.<a href="org/terrier/structures/indexing/singlepass/hadoop/MultiFileCollectionInputFormat.html" title="class in org.terrier.structures.indexing.singlepass.hadoop">MultiFileCollectionInputFormat</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/Index.html#getStart--">getStart()</a></span> - Method in class org.terrier.structures.<a href="org/terrier/structures/Index.html" title="class in org.terrier.structures">Index</a></dt>
+<dd>
+<div class="block">Returns the first docid in this index</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/querying/Request.html#getStartedProcessingTime--">getStartedProcessingTime()</a></span> - Method in class org.terrier.querying.<a href="org/terrier/querying/Request.html" title="class in org.terrier.querying">Request</a></dt>
+<dd>
+<div class="block">returns the time when the processing of the 
+ request started.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/querying/SearchRequest.html#getStartedProcessingTime--">getStartedProcessingTime()</a></span> - Method in interface org.terrier.querying.<a href="org/terrier/querying/SearchRequest.html" title="interface in org.terrier.querying">SearchRequest</a></dt>
+<dd>
+<div class="block">Returns the time the process start.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/matching/MatchingQueryTerms.html#getStatistics-java.lang.String-">getStatistics(String)</a></span> - Method in class org.terrier.matching.<a href="org/terrier/matching/MatchingQueryTerms.html" title="class in org.terrier.matching">MatchingQueryTerms</a></dt>
+<dd>
+<div class="block">Returns the assocciated code of the given query term.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/matching/PostingListManager.html#getStatistics-int-">getStatistics(int)</a></span> - Method in class org.terrier.matching.<a href="org/terrier/matching/PostingListManager.html" title="class in org.terrier.matching">PostingListManager</a></dt>
+<dd>
+<div class="block">Returns the EntryStatistics corresponding to the specified term</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/matching/AccumulatorResultSet.html#getStatusCode--">getStatusCode()</a></span> - Method in class org.terrier.matching.<a href="org/terrier/matching/AccumulatorResultSet.html" title="class in org.terrier.matching">AccumulatorResultSet</a></dt>
+<dd>
+<div class="block">get status code</div>
+</dd>
+<dt><spa

@@ -1,0 +1,45 @@
+tected static org.apache.hadoop.fs.Path</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#makeTemporaryFile-org.apache.hadoop.mapred.JobConf-java.lang.String-">makeTemporaryFile</a></span>(org.apache.hadoop.mapred.JobConf&nbsp;jobConf,
+                 <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;filename)</code>&nbsp;</td>
+</tr>
+<tr id="i9" class="rowColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#makeTerrierJob-org.apache.hadoop.mapred.JobConf-">makeTerrierJob</a></span>(org.apache.hadoop.mapred.JobConf&nbsp;jobConf)</code>
+<div class="block">Saves the current ApplicationSetup to the specified JobConf.</div>
+</td>
+</tr>
+<tr id="i10" class="altColor">
+<td class="colFirst"><code>protected static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#removeClassPathFromJob-org.apache.hadoop.mapred.JobConf-">removeClassPathFromJob</a></span>(org.apache.hadoop.mapred.JobConf&nbsp;jobConf)</code>&nbsp;</td>
+</tr>
+<tr id="i11" class="rowColor">
+<td class="colFirst"><code>protected static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#saveApplicationSetupToJob-org.apache.hadoop.mapred.JobConf-boolean-">saveApplicationSetupToJob</a></span>(org.apache.hadoop.mapred.JobConf&nbsp;jobConf,
+                         boolean&nbsp;getFreshProperties)</code>&nbsp;</td>
+</tr>
+<tr id="i12" class="altColor">
+<td class="colFirst"><code>protected static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#saveClassPathToJob-org.apache.hadoop.mapred.JobConf-">saveClassPathToJob</a></span>(org.apache.hadoop.mapred.JobConf&nbsp;jobConf)</code>&nbsp;</td>
+</tr>
+<tr id="i13" class="rowColor">
+<td class="colFirst"><code>static boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#setJobOutputCompression-org.apache.hadoop.mapred.JobConf-">setJobOutputCompression</a></span>(org.apache.hadoop.mapred.JobConf&nbsp;conf)</code>
+<div class="block">Utility method to set JobOutputCompression if possible.</div>
+</td>
+</tr>
+<tr id="i14" class="altColor">
+<td class="colFirst"><code>static boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#setMapOutputCompression-org.apache.hadoop.mapred.JobConf-">setMapOutputCompression</a></span>(org.apache.hadoop.mapred.JobConf&nbsp;conf)</code>
+<div class="block">Utility method to set MapOutputCompression if possible.</div>
+</td>
+</tr>
+<tr id="i15" class="rowColor">
+<td class="colFirst"><code>protected static boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#startsWithAny-java.lang.String-java.lang.String:A-">startsWithAny</a></span>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;source,
+             <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>[]&nbsp;checks)</code>
+<div class="block">Returns true if source contains any of the Strings held in checks.</div>
+</td>
+</tr>
+<tr id="i16" class="altColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/terrier/utility/io/HadoopUtility.html#toHConfiguration-org.terrier.structures.Index-org.apache.hadoop.conf.Configuration-">toHConfiguration</a></span>(<a href="../../../../org/terrier/structures/Index.html

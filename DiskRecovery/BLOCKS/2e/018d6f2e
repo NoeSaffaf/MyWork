@@ -1,0 +1,30 @@
+bsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/matching/models/queryexpansion/QueryExpansionModel.html#setDocumentFrequency-double-">setDocumentFrequency(double)</a></span> - Method in class org.terrier.matching.models.queryexpansion.<a href="org/terrier/matching/models/queryexpansion/QueryExpansionModel.html" title="class in org.terrier.matching.models.queryexpansion">QueryExpansionModel</a></dt>
+<dd>
+<div class="block">Set the document frequency.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/BasicTermStatsLexiconEntry.html#setDocumentFrequency-int-">setDocumentFrequency(int)</a></span> - Method in class org.terrier.structures.<a href="org/terrier/structures/BasicTermStatsLexiconEntry.html" title="class in org.terrier.structures">BasicTermStatsLexiconEntry</a></dt>
+<dd>
+<div class="block">Sets the document frequency</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/realtime/multi/MultiDocumentEntry.html#setDocumentIndexShardIndex-int-">setDocumentIndexShardIndex(int)</a></span> - Method in class org.terrier.realtime.multi.<a href="org/terrier/realtime/multi/MultiDocumentEntry.html" title="class in org.terrier.realtime.multi">MultiDocumentEntry</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/DocumentIndexEntry.html#setDocumentLength-int-">setDocumentLength(int)</a></span> - Method in class org.terrier.structures.<a href="org/terrier/structures/DocumentIndexEntry.html" title="class in org.terrier.structures">DocumentIndexEntry</a></dt>
+<dd>
+<div class="block">Set the length of the document</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/postings/BasicPostingImpl.html#setDocumentLength-int-">setDocumentLength(int)</a></span> - Method in class org.terrier.structures.postings.<a href="org/terrier/structures/postings/BasicPostingImpl.html" title="class in org.terrier.structures.postings">BasicPostingImpl</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/structures/postings/WritablePosting.html#setDocumentLength-int-">setDocumentLength(int)</a></span> - Method in interface org.terrier.structures.postings.<a href="org/terrier/structures/postings/WritablePosting.html" title="interface in org.terrier.structures.postings">WritablePosting</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/realtime/memory/MemoryInvertedIndex.html#setDoi-org.terrier.structures.DocumentIndex-">setDoi(DocumentIndex)</a></span> - Method in class org.terrier.realtime.memory.<a href="org/terrier/realtime/memory/MemoryInvertedIndex.html" title="class in org.terrier.realtime.memory">MemoryInvertedIndex</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/utility/TerrierTimer.html#setDone-double-">setDone(double)</a></span> - Method in class org.terrier.utility.<a href="org/terrier/utility/TerrierTimer.html" title="class in org.terrier.utility">TerrierTimer</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/querying/Request.html#setEmpty-boolean-">setEmpty(boolean)</a></span> - Method in class org.terrier.querying.<a href="org/terrier/querying/Request.html" title="class in org.terrier.querying">Request</a></dt>
+<dd>
+<div class="block">force this query to be seen as containing (no) terms.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/matching/daat/FatCandidateResultSet.html#setEntryStatistics-org.terrier.structures.EntryStatistics:A-">setEntryStatistics(EntryStatistics[])</a></span> - Method in class org.terrier.matching.daat.<a href="org/terrier/matching/daat/FatCandidateResultSet.html" title="class in org.terrier.matching.daat">FatCandidateResultSet</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="org/terrier/matching/FatQueryResultSet.html#setEntryStatistics-org.terrier.structures.EntryStatistics:A-">setEntryStatistics(EntryStatistics[])</a></span> - Method in class org.terrier.matching.<a href="org/terrier/matching/FatQueryResultSet.html" title="class in org.terrier.matching">
