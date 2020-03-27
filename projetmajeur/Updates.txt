@@ -1,0 +1,15 @@
+﻿Dites ce que vous avez fait et ce qu'il reste à faire
+
+#Partie Serveur
+
+Il faut encore corriger le problème des tests, vérifier les requêtes post et synchroniser la base de donnée avec les objets.
+
+#Partie Arduino
+
+#Partie Android
+
+Il reste à adapter l'application à notre api et au mqtt.
+
+#Partie Web
+
+J'ai fait une page HTML affichant les informations sur les lumières. Pour le moment, je n'arrive pas à me connecter à mon serveur.

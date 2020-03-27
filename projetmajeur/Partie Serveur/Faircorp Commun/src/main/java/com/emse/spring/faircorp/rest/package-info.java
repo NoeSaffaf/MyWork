@@ -1,0 +1,1 @@
+package com.emse.spring.faircorp.rest;

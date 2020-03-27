@@ -1,0 +1,12 @@
+Nous avons pas mal de probleme avec l'arduino qui ne voulait pas faire des requetes http correctement, nous avons effectué des dernieres modifs le mardi 07 sans avoir pu les tester, 
+il ya de bonne chance que le code ne compile pas ou que les requetes ne s'effectuent pas. Surtout que nous avons modifiés la librairie et les requettes
+http pour httpclient (l'autre posait beaucoup de probleme)
+
+
+"L'esprit" du code est en revanche présent,et je vous remercie donc de prendre en compte de ce desagreement,
+
+cordialement,
+
+Noe SAFFAF
+SOARES DE PAULA Yana
+LEMEE JEREMY

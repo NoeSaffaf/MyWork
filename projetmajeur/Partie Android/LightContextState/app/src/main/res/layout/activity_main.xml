@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/enter_light"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="0dp"
+                android:layout_weight=".70"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:singleLine="true"
+                android:imeOptions="actionDone"/>
+
+            <Button
+                android:id="@+id/buttonCheck"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="13dp"
+                android:layout_height="44dp"
+                android:layout_weight=".30"
+                android:onClick="checkLight"
+                android:text="@string/ok" />
+        </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/contextLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="108dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:visibility="visible">
+
+                <TableLayout
+                    android:id="@+id/tableLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="25dip">
+
+                    <TableRow
+                        android:id="@+id/tableRowBri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/textViewBri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/bri"
+                            android:textAlignment="gravity"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewBriValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/red"
+                            android:textSize="24sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textViewSat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/sat"
+                            android:textAlignment="gravity"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewSatValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/red"
+                            android:textSize="24sp" />
+                    </TableRow>
+
+
+
+                    <TableRow
+                        android:id="@+id/tableRowColour"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/textViewColour"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/colour"
+                            android:textAlignment="gravity"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewColourValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/red"
+                            android:textSize="24sp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/textViewStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="@string/status"
+                            android:textAlignment="gravity"
+                            android:textSize="24sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tableLayout1"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="32dp"
+                            android:contentDescription="@string/image_content_description" />
+                    </TableRow>
+
+                    <TableRow>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutButtons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true">
+
+                    <Button
+                        android:id="@+id/button1"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginRight="14dp"
+                        android:onClick="switchLight"
+                        android:text="@string/lightonoff" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginRight="14dp"
+                        android:onClick="setLightRed"
+                        android:text="@string/setLightRed" />
+
+
+                </LinearLayout>
+                </TableRow>
+                <TableRow>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutButtons2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true">
+
+                    <Button
+                        android:id="@+id/button3"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginRight="14dp"
+                        android:onClick="setLightGreen"
+                        android:text="@string/setLightGreen" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginRight="14dp"
+                        android:onClick="setLightBlue"
+                        android:text="@string/setLightBlue" />
+                </LinearLayout>
+                </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+
+    <requestFocus />
+
+</RelativeLayout>

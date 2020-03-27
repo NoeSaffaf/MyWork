@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LightContextState</string>
+    <string name="enter_light">Enter light</string>
+    <string name="ok">ok</string>
+    <string name="bri">brightness</string>
+    <string name="colour">colour</string>
+    <string name="sat">saturation</string>
+    <string name="status">status</string>
+    <string name="image_content_description">LightContextState</string>
+    <string name="lightonoff">light on/off</string>
+    <string name="setLightRed">Red</string>
+    <string name="setLightGreen">Green</string>
+    <string name="setLightBlue">Blue</string>
+</resources>

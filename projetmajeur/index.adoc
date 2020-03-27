@@ -1,0 +1,11 @@
+= ProjetMajeur
+
+== Projet de la majeure info sur les lampes.
+
+Le projet consiste à permettre à un ordinateur, un smartphone androïd ou un arduino d'intéragir avec des lampes Philips Hue.
+Pour cela, un arduino a été programmé pour intéragir directement avec les lampesgrâce à des boutons et potentiomètres. L'arduino sert également de relai entre les lampes et un serveur que nous avons développé.
+Ce serveur stocke les informations sur les lampes dans une base de données. Il reçoit l'état des lampes par des messages MQTT envoyés par l'Arduino et peut demander à changer l'état des lampes en envoyant des messages MQTT à l'Arduino.
+Le serveur expose une page web pour permettre à un ordinateur de consulter l'état des lampes et de demander à changer l'état des lampes.
+Nous avons également développé une application Androïd pour permettre à un smartphone Androïd de communiquer avec le serveur par ce moyen. L'application permet également directement de mettre à jour l'état des lampes en recevant des messages MQTT de l'Arduino.
+L'adresse du serveur est : https://faircorp-tortures-ninjas.cleverapps.io/
+
